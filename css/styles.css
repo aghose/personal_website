@@ -480,6 +480,7 @@ mark,
   filter: grayscale(.6);
   max-width: 70%;
   height: auto;
+  margin-bottom: 5rem;
 }
 
 .img-fluid {
@@ -5934,10 +5935,14 @@ a.close.disabled {
   touch-action: pan-y;
 }
 
+.personal-img{
+  max-height: 500px;
+}
+
 .carousel-inner {
   position: relative;
   width: 100%;
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 .carousel-inner::after {
   display: block;
@@ -10264,6 +10269,14 @@ body {
 }
 .about-section p {
   margin-bottom: 5rem;
+}
+
+.education{
+  text-align: justify;
+}
+
+#zero.education {
+  margin-bottom: 1rem;
 }
 
 .projects-section {
