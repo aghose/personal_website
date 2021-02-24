@@ -26,6 +26,7 @@
   --gray-dark: #343a40;
   --primary: #64a19d;
   --secondary: #6c757d;
+  --accent: #9A6886;
   --success: #28a745;
   --info: #17a2b8;
   --warning: #ffc107;
@@ -4009,7 +4010,7 @@ input[type=button].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #64a19d;
+  background-color: var(--primary);
 }
 
 .nav-fill > .nav-link,
@@ -10201,8 +10202,9 @@ body {
   }
   #mainNav.navbar-shrink .nav-link.active {
     color: #64a19d;
-    outline: none;
-    border-bottom: 0.25rem solid #64a19d;
+    outline: var(--black);
+    font-weight: bold;
+    border-bottom: 0.25rem solid var(--accent);
   }
 }
 
@@ -10294,7 +10296,7 @@ body {
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
+    border-left: 0.5rem solid var(--accent);
   }
 }
 .projects-section .project-text {
