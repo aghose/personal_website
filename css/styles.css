@@ -480,6 +480,7 @@ mark,
   filter: grayscale(.6);
   max-width: 70%;
   height: auto;
+  margin-bottom: 5rem;
 }
 
 .img-fluid {
@@ -5934,10 +5935,15 @@ a.close.disabled {
   touch-action: pan-y;
 }
 
+.personal-img{
+  max-height: 500px;
+  max-width: 100%;
+}
+
 .carousel-inner {
   position: relative;
   width: 100%;
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 .carousel-inner::after {
   display: block;
@@ -10259,11 +10265,24 @@ body {
 }
 
 .about-section {
-  padding-top: 10rem;
+  padding-top: 5rem;
   background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(23,23,23,1) 39%, rgba(97,97,97,1) 82%, rgba(158,158,158,1) 95%, rgba(255,255,255,0.9559174011401436) 100%)
 }
 .about-section p {
   margin-bottom: 5rem;
+}
+
+.about-section .education{
+  text-align: justify;
+}
+
+#zero.education {
+  margin-bottom: 1rem;
+}
+
+.personal-life{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .projects-section {
