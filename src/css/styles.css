@@ -26,6 +26,7 @@
   --gray-dark: #343a40;
   --primary: #64a19d;
   --secondary: #6c757d;
+  --accent:  #6E3F5D;
   --success: #28a745;
   --info: #17a2b8;
   --warning: #ffc107;
@@ -10202,7 +10203,8 @@ body {
   #mainNav.navbar-shrink .nav-link.active {
     color: #64a19d;
     outline: none;
-    border-bottom: 0.25rem solid #64a19d;
+    font-weight: bold;
+    border-bottom: 0.25rem solid var(--accent);
   }
 }
 
@@ -10222,7 +10224,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../images/background06.png");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../assets/background06.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10314,7 +10316,7 @@ body {
 
 .signup-section {
   padding: 10rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%), url("../images/background07.png");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%), url("../assets/background07.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
