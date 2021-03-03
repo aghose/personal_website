@@ -1,9 +1,9 @@
 # personal_website
 
 ## Description
-```
+
 This started as a static HTML, CSS, JS page to showcase myself for future potential employers, but it has now been transformed into a complete vue application
-```
+
 ## Project setup
 ```
 npm install
