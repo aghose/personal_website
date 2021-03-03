@@ -26,6 +26,7 @@
   --gray-dark: #343a40;
   --primary: #64a19d;
   --secondary: #6c757d;
+  --accent:  #6E3F5D;
   --success: #28a745;
   --info: #17a2b8;
   --warning: #ffc107;
@@ -10202,7 +10203,8 @@ body {
   #mainNav.navbar-shrink .nav-link.active {
     color: #64a19d;
     outline: none;
-    border-bottom: 0.25rem solid #64a19d;
+    font-weight: bold;
+    border-bottom: 0.25rem solid var(--accent);
   }
 }
 
