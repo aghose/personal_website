@@ -67,7 +67,7 @@
             </p>
             <img
               class="img-bd-map"
-              src="/assets/ctg_00.png"
+              src="../assets/ctg_00.png"
               alt="Map of Bangladesh"
             />
             <h2 class="text-white mb-4">
@@ -144,21 +144,21 @@
                   <div class="carousel-item active">
                     <img
                       class="personal-img"
-                      src="/assets/prof_img00.jpg"
+                      src="../assets/prof_img00.jpg"
                       alt="First slide"
                     />
                   </div>
                   <div class="carousel-item">
                     <img
                       class="personal-img"
-                      src="/assets/prof_img01.jpg"
+                      src="../assets/prof_img01.jpg"
                       alt="Second slide"
                     />
                   </div>
                   <div class="carousel-item">
                     <img
                       class="personal-img"
-                      src="/assets/prof_img02.jpg"
+                      src="../assets/prof_img02.jpg"
                       alt="Third slide"
                     />
                   </div>
@@ -191,7 +191,7 @@
             </div>
           </div>
         </div>
-        <img hidden class="img-fluid" src="/assets/ipad.png" alt="" />
+        <img hidden class="img-fluid" src="../assets/ipad.png" alt="" />
       </div>
     </section>
     <!-- Projects-->
@@ -202,7 +202,7 @@
           <div class="col-xl-8 col-lg-7">
             <img
               class="img-fluid mb-3 mb-lg-0"
-              src="/assets/glassdoor-mining-app.png"
+              src="../assets/glassdoor-mining-app.png"
               alt=""
             />
           </div>
@@ -222,7 +222,7 @@
         <!-- Project One Row-->
         <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div class="col-lg-6">
-            <img class="img-fluid" src="/assets/demo-image-01.jpg" alt="" />
+            <img class="img-fluid" src="../assets/demo-image-01.jpg" alt="" />
           </div>
           <div class="col-lg-6">
             <div class="bg-black text-center h-100 project">
@@ -244,7 +244,7 @@
         <!-- Project Two Row-->
         <div class="row justify-content-center no-gutters">
           <div class="col-lg-6">
-            <img class="img-fluid" src="/assets/demo-image-02.jpg" alt="" />
+            <img class="img-fluid" src="../assets/demo-image-02.jpg" alt="" />
           </div>
           <div class="col-lg-6 order-lg-first">
             <div class="bg-black text-center h-100 project">
@@ -269,7 +269,7 @@
         <!-- Project Three Row-->
         <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div class="col-lg-6">
-            <img class="img-fluid" src="/assets/demo-image-01.jpg" alt="" />
+            <img class="img-fluid" src="../assets/demo-image-01.jpg" alt="" />
           </div>
           <div class="col-lg-6">
             <div class="bg-black text-center h-100 project">
@@ -291,7 +291,7 @@
         <!-- Project Four Row-->
         <div class="row justify-content-center no-gutters">
           <div class="col-lg-6">
-            <img class="img-fluid" src="/assets/demo-image-02.jpg" alt="" />
+            <img class="img-fluid" src="../assets/demo-image-02.jpg" alt="" />
           </div>
           <div class="col-lg-6 order-lg-first">
             <div class="bg-black text-center h-100 project">
@@ -381,7 +381,6 @@
 
 <script>
 // @ is an alias to /src
-// import HelloWorld from '@/components/HelloWorld.vue';
 
 export default {
   name: 'Home',

@@ -3,7 +3,7 @@
  * Copyright 2013-2020 Start Bootstrap
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-grayscale/blob/master/LICENSE)
  */
-
+;console.log("You've entered scripts.js");
 (function ($) {
   // 'use strict'; // Start of use strict
 
@@ -48,7 +48,7 @@
     }
   };
   // Collapse now if page is not at top
-  navbarCollapse();
+  setTimeout(navbarCollapse);
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
 }(jQuery)); // End of use strict
