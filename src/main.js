@@ -1,12 +1,9 @@
 import Vue from 'vue';
-import LoadScript from 'vue-plugin-load-script';
+import 'bootstrap';
 import App from './App.vue';
 import router from './router';
-import 'bootstrap';
 
 Vue.config.productionTip = false;
-Vue.use(LoadScript);
-Vue.loadScript('./js/scripts.js');
 
 new Vue({
   router,

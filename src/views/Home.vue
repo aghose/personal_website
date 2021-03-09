@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="home-vue">
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
@@ -39,7 +39,7 @@
       </div>
     </nav>
     <!-- Masthead-->
-    <header class="masthead">
+    <header id="page-top" class="masthead">
       <div class="container d-flex h-100 align-items-center">
         <div class="mx-auto text-center">
           <h1 class="mx-auto my-0 text-uppercase">hello</h1>
@@ -99,7 +99,8 @@
               <li>CSE 487: Distributed Systems</li>
             </ul>
             <p class="education text-white-50" id="one">
-              If you wish to see my official résumé, it can be found here.
+              If you wish to see my official résumé, it can be found
+              <a href="/resume"> here</a>.
             </p>
 
             <div class="personal-life">
@@ -320,7 +321,7 @@
           <div class="col-md-10 col-lg-8 mx-auto text-center">
             <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
             <h2 class="text-white mb-5">
-              Click here to see my official résumé
+              <a href="/resume">Click here to see my official résumé</a>
             </h2>
           </div>
         </div>
@@ -379,8 +380,17 @@
   </div>
 </template>
 
+<!-- Main CSS file-->
+<style scoped src='../css/home-styles.css'>
+</style>
+
 <script>
 // @ is an alias to /src
+import Vue from 'vue';
+import LoadScript from 'vue-plugin-load-script';
+
+Vue.use(LoadScript);
+Vue.loadScript('./js/scripts.js');
 
 export default {
   name: 'Home',
