@@ -44,7 +44,7 @@
         <div class="mx-auto text-center">
           <h1 class="mx-auto my-0 text-uppercase">hello</h1>
           <h2 class="text-white-50 mx-auto mt-2 mb-5">
-            I am Akash Ghose. I am a recent University at Buffalo graduate
+            I am Akash Ghose. I am a recent University at Buffalo graduate.
           </h2>
           <a class="btn btn-primary js-scroll-trigger" href="#about"
             >Get To Know Me</a
@@ -223,7 +223,7 @@
         <!-- Project One Row-->
         <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div class="col-lg-6">
-            <img class="img-fluid" src="../assets/demo-image-01.jpg" alt="" />
+            <img class="img-fluid" src="../assets/blm.png" alt="" />
           </div>
           <div class="col-lg-6">
             <div class="bg-black text-center h-100 project">
@@ -231,10 +231,17 @@
                 <div
                   class="project-text w-100 my-auto text-center text-lg-left"
                 >
-                  <h4 class="text-white">BLM Term project</h4>
+                  <h4 class="text-white">BLM Data Science Term project</h4>
                   <p class="mb-0 text-white-50">
-                    An example of where you can put an image of a project, or
-                    anything else, along with a description.
+                    I collected data from multiple .gov sources with ambitions
+                    of using the data to point out existence of/lack of racial
+                    bias in our institutions. I used R and DplyR methods to
+                    clean and analyze the datasets and ggplot2 to graph them.
+                    Using these tools, I was able to show that mortgage loan
+                    applicants that were made by black people were more likely
+                    to get rejected than their white counterparts. I also
+                    utilized linear regression to build a model that could
+                    predict an applicant's income given certain factors.
                   </p>
                   <hr class="d-none d-lg-block mb-0 ml-0" />
                 </div>
@@ -253,13 +260,13 @@
                 <div
                   class="project-text w-100 my-auto text-center text-lg-right"
                 >
-                  <h4 class="text-white">
-                    FullStack WebApp using Vue and Express
-                  </h4>
+                  <h4 class="text-white">This Website!</h4>
                   <p class="mb-0 text-white-50">
-                    Another example of a project with its respective
-                    description. These sections work well responsively as well,
-                    try this theme on a small screen!
+                    This website was originally made to be a static HTML/CSS
+                    page, made to showcase myself for future potential
+                    employers. However, as I started having more fun with it, I
+                    transformed it into a full vue application to further my
+                    knowledge and understanding of front-end frameworks.
                   </p>
                   <hr class="d-none d-lg-block mb-0 mr-0" />
                 </div>
@@ -278,10 +285,11 @@
                 <div
                   class="project-text w-100 my-auto text-center text-lg-left"
                 >
-                  <h4 class="text-white">Particles effect</h4>
+                  <h4 class="text-white">
+                    FullStack WebApp using Vue and Express
+                  </h4>
                   <p class="mb-0 text-white-50">
-                    An example of where you can put an image of a project, or
-                    anything else, along with a description.
+                    A simple fullstack app I made to introduce me to Vue.
                   </p>
                   <hr class="d-none d-lg-block mb-0 ml-0" />
                 </div>
@@ -300,11 +308,10 @@
                 <div
                   class="project-text w-100 my-auto text-center text-lg-right"
                 >
-                  <h4 class="text-white">TicTacToe</h4>
+                  <h4 class="text-white">Particles effect</h4>
                   <p class="mb-0 text-white-50">
-                    Another example of a project with its respective
-                    description. These sections work well responsively as well,
-                    try this theme on a small screen!
+                    A fun project I did to further my understanding of
+                    JavaScript
                   </p>
                   <hr class="d-none d-lg-block mb-0 mr-0" />
                 </div>
@@ -312,8 +319,33 @@
             </div>
           </div>
         </div>
+
+        <Project img_left= "true"></Project>
+
+        <!-- Project Five Row -->
+        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+          <div class="col-lg-6">
+            <img class="img-fluid" src="../assets/demo-image-01.jpg" alt="" />
+          </div>
+          <div class="col-lg-6">
+            <div class="bg-black text-center h-100 project">
+              <div class="d-flex h-100">
+                <div
+                  class="project-text w-100 my-auto text-center text-lg-left"
+                >
+                  <h4 class="text-white">TicTacToe</h4>
+                  <p class="mb-0 text-white-50">
+                    A project I made to introduce myself to JavaScript
+                  </p>
+                  <hr class="d-none d-lg-block mb-0 ml-0" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
+
     <!-- Resume-->
     <section class="signup-section" id="resume">
       <div class="container">
@@ -388,12 +420,20 @@
 // @ is an alias to /src
 import Vue from 'vue';
 import LoadScript from 'vue-plugin-load-script';
-
-Vue.use(LoadScript);
-Vue.loadScript('./js/scripts.js');
+import Project from '@/components/Project.vue';
 
 export default {
   name: 'Home',
-  components: {},
+  components: {
+    Project,
+  },
+  mounted() {
+    this.$nextTick(() => {
+      // Code that will run only after the
+      // entire view has been rendered
+      Vue.use(LoadScript);
+      Vue.loadScript('./js/scripts.js');
+    });
+  },
 };
 </script>

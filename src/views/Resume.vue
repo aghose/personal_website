@@ -8,8 +8,8 @@
             <ul>
               <li>
                 <p>
-                  <i class="fa fa-map-marker-alt icon" title="Location"></i>Buffalo,
-                  NY
+                  <i class="fa fa-map-marker-alt icon" title="Location"></i
+                  >Buffalo, NY
                 </p>
               </li>
               <li>
@@ -135,8 +135,8 @@
             <section class="summary">
               <h6 class="section-header">Summary</h6>
               <p class="sanserif">
-                Tenacious worker, looking to bring creative and innovate
-                solutions to your quandaries
+                Meticulous and creative individual, hungry for knowledge and
+                growth.
               </p>
             </section>
             <!-- EXPERIENCE -->
@@ -200,7 +200,7 @@
                         postings regarding Data Scientists
                       </li>
                       <li>
-                        Used pandas, numpy and matplotlib to clean the data
+                        Utilized pandas, numpy and matplotlib to clean and analyze the data
                       </li>
                       <li>Used seaborn and matplotlib to visualize the data</li>
                       <li>
@@ -208,14 +208,52 @@
                         predict an estimated salary
                       </li>
                       <li>
-                        Used Streamlit to build a data product showcasing all of
+                        Built a data product with Streamlit, showcasing all of
                         the above
                       </li>
                       <li>
-                        View final data product
+                        View final data product at
                         <a href="https://glassdoor-mining-proj.herokuapp.com/"
-                          >at glassdoor-mining-proj.herokuapp.com</a
+                          > glassdoor-mining-proj.herokuapp.com</a
                         >
+                      </li>
+                    </ul>
+                  </span>
+                </li>
+                <li>
+                  <header class="project-title">
+                    BLM Data Science project
+                  </header>
+                  <span class="project-description">
+                    <ul>
+                      <li>Used data found in consumerfinance.gov</li>
+                      <li>
+                        Applied R and DplyR methods to clean and analyze data
+                      </li>
+                      <li>Used Ggplot2 to graph it</li>
+                      <li>
+                        Demonstrated black mortgage loan applicants are more
+                        likely to be rejected than their white counterparts
+                      </li>
+                      <li>
+                        Used linear regression to predict applicant's income,
+                        given certain factors
+                      </li>
+                      <li>Built a data product with RShiny</li>
+                    </ul>
+                  </span>
+                </li>
+                <li>
+                  <header class="project-title">Other Projects</header>
+                  <span class="project-description">
+                    <ul>
+                      <li>
+                        Some of my other projects can be found at:
+                        <a href="/#projects">placeholder.com/#projects</a>
+                      </li>
+                      <li>
+                        Or visit my github at:
+                        <a href="github.com/aghose">github.com/aghose</a>
                       </li>
                     </ul>
                   </span>
@@ -262,10 +300,10 @@
 <style scoped src="../css/resume-styles.css"></style>
 
 <!-- Print only-->
-<style media="print" scoped src="../css/print.css"></style>
+<style src="../css/print.css"></style>
 
 <!-- Screen only-->
-<style media="screen" scoped src="../css/screen.css"></style>
+<style src="../css/screen.css"></style>
 
 <script>
 export default {

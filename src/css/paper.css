@@ -17,8 +17,8 @@
 #resume-vue.A4.landscape     .sheet { width: 297mm; height: 209mm }
 #resume-vue.A5               .sheet { width: 148mm; height: 209mm }
 #resume-vue.A5.landscape     .sheet { width: 210mm; height: 147mm }
-.letter           .sheet { width: 216mm; height: 279mm }
-.letter.landscape .sheet { width: 280mm; height: 215mm }
+#resume-vue.letter           .sheet { width: 216mm; height: 279mm }
+#resume-vue.letter.landscape .sheet { width: 280mm; height: 215mm }
 #resume-vue.legal            .sheet { width: 216mm; height: 356mm }
 #resume-vue.legal.landscape  .sheet { width: 357mm; height: 215mm }
 
