@@ -221,29 +221,31 @@
           </div>
         </div>
         <!-- Project One Row-->
-        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-          <div class="col-lg-6">
-            <img class="img-fluid" src="../assets/blm.png" alt="" />
-          </div>
-          <div class="col-lg-6">
-            <div class="bg-black text-center h-100 project">
-              <div class="d-flex h-100">
-                <div
-                  class="project-text w-100 my-auto text-center text-lg-left"
-                >
-                  <h4 class="text-white">BLM Data Science Term project</h4>
-                  <p class="mb-0 text-white-50">
-                    I collected data from multiple .gov sources with ambitions
-                    of using the data to point out existence of/lack of racial
-                    bias in our institutions. I used R and DplyR methods to
-                    clean and analyze the datasets and ggplot2 to graph them.
-                    Using these tools, I was able to show that mortgage loan
-                    applicants that were made by black people were more likely
-                    to get rejected than their white counterparts. I also
-                    utilized linear regression to build a model that could
-                    predict an applicant's income given certain factors.
-                  </p>
-                  <hr class="d-none d-lg-block mb-0 ml-0" />
+        <div class="projects-row">
+          <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+            <div class="col-lg-6">
+              <img class="img-fluid" src="../assets/blm.png" alt="" />
+            </div>
+            <div class="col-lg-6">
+              <div class="bg-black text-center h-100 project">
+                <div class="d-flex h-100">
+                  <div
+                    class="project-text w-100 my-auto text-center text-lg-left"
+                  >
+                    <h4 class="text-white">BLM Data Science Term project</h4>
+                    <p class="mb-0 text-white-50">
+                      I collected data from multiple .gov sources with ambitions
+                      of using the data to point out existence of/lack of racial
+                      bias in our institutions. I used R and DplyR methods to
+                      clean and analyze the datasets and ggplot2 to graph them.
+                      Using these tools, I was able to show that mortgage loan
+                      applicants that were made by black people were more likely
+                      to get rejected than their white counterparts. I also
+                      utilized linear regression to build a model that could
+                      predict an applicant's income given certain factors.
+                    </p>
+                    <hr class="d-none d-lg-block mb-0 ml-0" />
+                  </div>
                 </div>
               </div>
             </div>
@@ -319,9 +321,6 @@
             </div>
           </div>
         </div>
-
-        <Project img_left= "true"></Project>
-
         <!-- Project Five Row -->
         <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div class="col-lg-6">
@@ -420,12 +419,12 @@
 // @ is an alias to /src
 import Vue from 'vue';
 import LoadScript from 'vue-plugin-load-script';
-import Project from '@/components/Project.vue';
+// import Project from '@/components/Project.vue';
 
 export default {
   name: 'Home',
   components: {
-    Project,
+    // Project,
   },
   mounted() {
     this.$nextTick(() => {
