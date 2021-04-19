@@ -52,6 +52,7 @@
         </div>
       </div>
     </header>
+
     <!-- About-->
     <section class="about-section text-center" id="about">
       <div class="container">
@@ -195,6 +196,7 @@
         <img hidden class="img-fluid" src="../assets/ipad.png" alt="" />
       </div>
     </section>
+
     <!-- Projects-->
     <section class="projects-section bg-light" id="projects">
       <div class="container">
@@ -221,20 +223,11 @@
           </div>
         </div>
         <!-- Project One Row-->
-        <div class="projects-row">
-          <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-            <div class="col-lg-6">
-              <img class="img-fluid" src="../assets/blm.png" alt="" />
-            </div>
-            <div class="col-lg-6">
-              <div class="bg-black text-center h-100 project">
-                <div class="d-flex h-100">
-                  <div
-                    class="project-text w-100 my-auto text-center text-lg-left"
-                  >
-                    <h4 class="text-white">BLM Data Science Term project</h4>
-                    <p class="mb-0 text-white-50">
-                      I collected data from multiple .gov sources with ambitions
+        <Project
+          :img_left="true"
+          img_name="blm.png"
+          title="BLM Data Science Term project"
+          description="I collected data from multiple .gov sources with ambitions
                       of using the data to point out existence of/lack of racial
                       bias in our institutions. I used R and DplyR methods to
                       clean and analyze the datasets and ggplot2 to graph them.
@@ -242,106 +235,56 @@
                       applicants that were made by black people were more likely
                       to get rejected than their white counterparts. I also
                       utilized linear regression to build a model that could
-                      predict an applicant's income given certain factors.
-                    </p>
-                    <hr class="d-none d-lg-block mb-0 ml-0" />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+                      predict an applicant's income given certain factors."
+        >
+        </Project>
+
         <!-- Project Two Row-->
-        <div class="row justify-content-center no-gutters">
-          <div class="col-lg-6">
-            <img class="img-fluid" src="../assets/demo-image-02.jpg" alt="" />
-          </div>
-          <div class="col-lg-6 order-lg-first">
-            <div class="bg-black text-center h-100 project">
-              <div class="d-flex h-100">
-                <div
-                  class="project-text w-100 my-auto text-center text-lg-right"
-                >
-                  <h4 class="text-white">This Website!</h4>
-                  <p class="mb-0 text-white-50">
-                    This website was originally made to be a static HTML/CSS
+        <Project
+          :img_left="false"
+          img_name="website.png"
+          title="This Website!"
+          description="This website was originally made to be a static HTML/CSS
                     page, made to showcase myself for future potential
                     employers. However, as I started having more fun with it, I
                     transformed it into a full vue application to further my
-                    knowledge and understanding of front-end frameworks.
-                  </p>
-                  <hr class="d-none d-lg-block mb-0 mr-0" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+                    knowledge and understanding of front-end frameworks."
+        >
+        </Project>
+
         <!-- Project Three Row-->
-        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-          <div class="col-lg-6">
-            <img class="img-fluid" src="../assets/demo-image-01.jpg" alt="" />
-          </div>
-          <div class="col-lg-6">
-            <div class="bg-black text-center h-100 project">
-              <div class="d-flex h-100">
-                <div
-                  class="project-text w-100 my-auto text-center text-lg-left"
-                >
-                  <h4 class="text-white">
-                    FullStack WebApp using Vue and Express
-                  </h4>
-                  <p class="mb-0 text-white-50">
-                    A simple fullstack app I made to introduce me to Vue.
-                  </p>
-                  <hr class="d-none d-lg-block mb-0 ml-0" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <Project
+          :img_left="true"
+          img_name="fullstack.png"
+          title="FullStack WebApp using Vue and Express"
+          description="This is a simple fullstack app I made to introduce myself to Vue.
+                    I heard that most modern companies use front-end frameworks to build
+                    their web applications, so I sought to familiarize myself with one"
+        >
+        </Project>
+
         <!-- Project Four Row-->
-        <div class="row justify-content-center no-gutters">
-          <div class="col-lg-6">
-            <img class="img-fluid" src="../assets/demo-image-02.jpg" alt="" />
-          </div>
-          <div class="col-lg-6 order-lg-first">
-            <div class="bg-black text-center h-100 project">
-              <div class="d-flex h-100">
-                <div
-                  class="project-text w-100 my-auto text-center text-lg-right"
-                >
-                  <h4 class="text-white">Particles effect</h4>
-                  <p class="mb-0 text-white-50">
-                    A fun project I did to further my understanding of
-                    JavaScript
-                  </p>
-                  <hr class="d-none d-lg-block mb-0 mr-0" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <Project
+          :img_left="false"
+          img_name="particles.png"
+          title="Particles effect"
+          description="I sought to recreate the particles effect found on
+                    vincentgarreau.com/particles.js/. This was just a fun
+                    project I did to help further my understanding of
+                    JavaScript"
+        >
+        </Project>
+
         <!-- Project Five Row -->
-        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-          <div class="col-lg-6">
-            <img class="img-fluid" src="../assets/demo-image-01.jpg" alt="" />
-          </div>
-          <div class="col-lg-6">
-            <div class="bg-black text-center h-100 project">
-              <div class="d-flex h-100">
-                <div
-                  class="project-text w-100 my-auto text-center text-lg-left"
-                >
-                  <h4 class="text-white">TicTacToe</h4>
-                  <p class="mb-0 text-white-50">
-                    A project I made to introduce myself to JavaScript
-                  </p>
-                  <hr class="d-none d-lg-block mb-0 ml-0" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <Project
+          :img_left="true"
+          img_name="tictactoe.png"
+          title="TicTacToe"
+          description="This was a project made to introduce myself to
+                    JavaScript"
+        >
+        </Project>
+
       </div>
     </section>
 
@@ -419,12 +362,12 @@
 // @ is an alias to /src
 import Vue from 'vue';
 import LoadScript from 'vue-plugin-load-script';
-// import Project from '@/components/Project.vue';
+import Project from '@/components/Project.vue';
 
 export default {
   name: 'Home',
   components: {
-    // Project,
+    Project,
   },
   mounted() {
     this.$nextTick(() => {

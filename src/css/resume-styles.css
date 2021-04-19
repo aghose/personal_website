@@ -40,7 +40,7 @@ p:-moz-only-whitespace, li:-moz-only-whitespace, div:-moz-only-whitespace, secti
     -moz-osx-font-smoothing: grayscale;
     -webkit-tap-highlight-color: transparent;
     text-rendering: optimizeLegibility;
-    text-decoration-skip: ink;
+    text-decoration-skip: auto;
     hyphens: auto;
 }
 
@@ -50,6 +50,11 @@ p:-moz-only-whitespace, li:-moz-only-whitespace, div:-moz-only-whitespace, secti
 }
 
 /* Misc */
+
+#resume-vue a {
+    text-decoration: none;
+    color: inherit;
+}
 
 #resume-vue a:hover {
     color:darkgoldenrod;
