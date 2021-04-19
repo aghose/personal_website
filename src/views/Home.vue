@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="home-vue">
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
@@ -39,12 +39,12 @@
       </div>
     </nav>
     <!-- Masthead-->
-    <header class="masthead">
+    <header id="page-top" class="masthead">
       <div class="container d-flex h-100 align-items-center">
         <div class="mx-auto text-center">
           <h1 class="mx-auto my-0 text-uppercase">hello</h1>
           <h2 class="text-white-50 mx-auto mt-2 mb-5">
-            I am Akash Ghose. I am a recent University at Buffalo graduate
+            I am Akash Ghose. I am a recent University at Buffalo graduate.
           </h2>
           <a class="btn btn-primary js-scroll-trigger" href="#about"
             >Get To Know Me</a
@@ -52,6 +52,7 @@
         </div>
       </div>
     </header>
+
     <!-- About-->
     <section class="about-section text-center" id="about">
       <div class="container">
@@ -99,7 +100,8 @@
               <li>CSE 487: Distributed Systems</li>
             </ul>
             <p class="education text-white-50" id="one">
-              If you wish to see my official résumé, it can be found here.
+              If you wish to see my official résumé, it can be found
+              <a href="/resume"> here</a>.
             </p>
 
             <div class="personal-life">
@@ -194,6 +196,7 @@
         <img hidden class="img-fluid" src="../assets/ipad.png" alt="" />
       </div>
     </section>
+
     <!-- Projects-->
     <section class="projects-section bg-light" id="projects">
       <div class="container">
@@ -220,99 +223,71 @@
           </div>
         </div>
         <!-- Project One Row-->
-        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-          <div class="col-lg-6">
-            <img class="img-fluid" src="../assets/demo-image-01.jpg" alt="" />
-          </div>
-          <div class="col-lg-6">
-            <div class="bg-black text-center h-100 project">
-              <div class="d-flex h-100">
-                <div
-                  class="project-text w-100 my-auto text-center text-lg-left"
-                >
-                  <h4 class="text-white">BLM Term project</h4>
-                  <p class="mb-0 text-white-50">
-                    An example of where you can put an image of a project, or
-                    anything else, along with a description.
-                  </p>
-                  <hr class="d-none d-lg-block mb-0 ml-0" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <Project
+          :img_left="true"
+          img_name="blm.png"
+          title="BLM Data Science Term project"
+          description="I collected data from multiple .gov sources with ambitions
+                      of using the data to point out existence of/lack of racial
+                      bias in our institutions. I used R and DplyR methods to
+                      clean and analyze the datasets and ggplot2 to graph them.
+                      Using these tools, I was able to show that mortgage loan
+                      applicants that were made by black people were more likely
+                      to get rejected than their white counterparts. I also
+                      utilized linear regression to build a model that could
+                      predict an applicant's income given certain factors."
+        >
+        </Project>
+
         <!-- Project Two Row-->
-        <div class="row justify-content-center no-gutters">
-          <div class="col-lg-6">
-            <img class="img-fluid" src="../assets/demo-image-02.jpg" alt="" />
-          </div>
-          <div class="col-lg-6 order-lg-first">
-            <div class="bg-black text-center h-100 project">
-              <div class="d-flex h-100">
-                <div
-                  class="project-text w-100 my-auto text-center text-lg-right"
-                >
-                  <h4 class="text-white">
-                    FullStack WebApp using Vue and Express
-                  </h4>
-                  <p class="mb-0 text-white-50">
-                    Another example of a project with its respective
-                    description. These sections work well responsively as well,
-                    try this theme on a small screen!
-                  </p>
-                  <hr class="d-none d-lg-block mb-0 mr-0" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <Project
+          :img_left="false"
+          img_name="website.png"
+          title="This Website!"
+          description="This website was originally made to be a static HTML/CSS
+                    page, made to showcase myself for future potential
+                    employers. However, as I started having more fun with it, I
+                    transformed it into a full vue application to further my
+                    knowledge and understanding of front-end frameworks."
+        >
+        </Project>
+
         <!-- Project Three Row-->
-        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-          <div class="col-lg-6">
-            <img class="img-fluid" src="../assets/demo-image-01.jpg" alt="" />
-          </div>
-          <div class="col-lg-6">
-            <div class="bg-black text-center h-100 project">
-              <div class="d-flex h-100">
-                <div
-                  class="project-text w-100 my-auto text-center text-lg-left"
-                >
-                  <h4 class="text-white">Particles effect</h4>
-                  <p class="mb-0 text-white-50">
-                    An example of where you can put an image of a project, or
-                    anything else, along with a description.
-                  </p>
-                  <hr class="d-none d-lg-block mb-0 ml-0" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <Project
+          :img_left="true"
+          img_name="fullstack.png"
+          title="FullStack WebApp using Vue and Express"
+          description="This is a simple fullstack app I made to introduce myself to Vue.
+                    I heard that most modern companies use front-end frameworks to build
+                    their web applications, so I sought to familiarize myself with one"
+        >
+        </Project>
+
         <!-- Project Four Row-->
-        <div class="row justify-content-center no-gutters">
-          <div class="col-lg-6">
-            <img class="img-fluid" src="../assets/demo-image-02.jpg" alt="" />
-          </div>
-          <div class="col-lg-6 order-lg-first">
-            <div class="bg-black text-center h-100 project">
-              <div class="d-flex h-100">
-                <div
-                  class="project-text w-100 my-auto text-center text-lg-right"
-                >
-                  <h4 class="text-white">TicTacToe</h4>
-                  <p class="mb-0 text-white-50">
-                    Another example of a project with its respective
-                    description. These sections work well responsively as well,
-                    try this theme on a small screen!
-                  </p>
-                  <hr class="d-none d-lg-block mb-0 mr-0" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <Project
+          :img_left="false"
+          img_name="particles.png"
+          title="Particles effect"
+          description="I sought to recreate the particles effect found on
+                    vincentgarreau.com/particles.js/. This was just a fun
+                    project I did to help further my understanding of
+                    JavaScript"
+        >
+        </Project>
+
+        <!-- Project Five Row -->
+        <Project
+          :img_left="true"
+          img_name="tictactoe.png"
+          title="TicTacToe"
+          description="This was a project made to introduce myself to
+                    JavaScript"
+        >
+        </Project>
+
       </div>
     </section>
+
     <!-- Resume-->
     <section class="signup-section" id="resume">
       <div class="container">
@@ -320,7 +295,7 @@
           <div class="col-md-10 col-lg-8 mx-auto text-center">
             <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
             <h2 class="text-white mb-5">
-              Click here to see my official résumé
+              <a href="/resume">Click here to see my official résumé</a>
             </h2>
           </div>
         </div>
@@ -379,11 +354,28 @@
   </div>
 </template>
 
+<!-- Main CSS file-->
+<style scoped src='../css/home-styles.css'>
+</style>
+
 <script>
 // @ is an alias to /src
+import Vue from 'vue';
+import LoadScript from 'vue-plugin-load-script';
+import Project from '@/components/Project.vue';
 
 export default {
   name: 'Home',
-  components: {},
+  components: {
+    Project,
+  },
+  mounted() {
+    this.$nextTick(() => {
+      // Code that will run only after the
+      // entire view has been rendered
+      Vue.use(LoadScript);
+      Vue.loadScript('./js/scripts.js');
+    });
+  },
 };
 </script>

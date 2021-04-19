@@ -1,0 +1,313 @@
+<template>
+  <div id="resume-vue" class="letter">
+    <section id="save">
+      <section class="sheet">
+        <aside class="aside">
+          <section class="contact">
+            <h6>Contact</h6>
+            <ul>
+              <li>
+                <p>
+                  <i class="fa fa-map-marker-alt icon" title="Location"></i
+                  >Buffalo, NY
+                </p>
+              </li>
+              <li>
+                <p>
+                  <i class="fa fa-phone icon" title="Cell phone"></i>
+                  <a href="tel:7164822188">(716) 482-2188</a>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <i class="fa fa-envelope icon" title="Email"></i>
+                  <a href="mailto:aghose@buffalo.edu">aghose@buffalo.edu</a>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <i class="fa fa-globe-americas icon" title="Website"></i>
+                  <a href="https://">placeholder.com</a>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <i class="fab fa-github icon" title="GitHub"></i>
+                  <a href="https://github.com/aghose">github.com/aghose</a>
+                </p>
+              </li>
+            </ul>
+          </section>
+          <section class="skills">
+            <h6>Skills</h6>
+            <ul>
+              <li><span>Data Cleaning</span></li>
+              <li><span>Data Analysis</span></li>
+              <li><span>Data Visualization</span></li>
+              <li><span>Machine Learning</span></li>
+              <li><span>Responsive UI/UX Design</span></li>
+            </ul>
+          </section>
+          <section class="skills">
+            <h6>Technologies</h6>
+            <ul>
+              <li><span>Python</span></li>
+              <li><span>R</span></li>
+              <li><span>Java</span></li>
+              <li><span>HTML</span></li>
+              <li><span>CSS</span></li>
+              <li><span>Bootstrap</span></li>
+              <li><span>JavaScript</span></li>
+              <li><span>Node.js</span></li>
+              <li><span>Vue.js</span></li>
+              <li><span>Angular</span></li>
+              <li><span>PostgreSQL</span></li>
+              <li><span>MongoDB</span></li>
+            </ul>
+          </section>
+          <section class="skills">
+            <h6>Libraries</h6>
+            <ul>
+              <li><span>Pandas</span></li>
+              <li><span>NumPy</span></li>
+              <li><span>Seaborn</span></li>
+              <li><span>Matplotlib</span></li>
+              <li><span>Selenium</span></li>
+              <li><span>Streamlit</span></li>
+              <li><span>DplyR</span></li>
+              <li><span>Ggplot2</span></li>
+              <li><span>Shiny</span></li>
+            </ul>
+          </section>
+          <section class="skills">
+            <h6>Algorithms</h6>
+            <ul>
+              <li><span>Linear Regression</span></li>
+              <li><span>Logistic Regression</span></li>
+              <li><span>Lasso Regression</span></li>
+              <li><span>KNN</span></li>
+              <li><span>K-Means</span></li>
+            </ul>
+          </section>
+          <!-- <section class="references">
+            <h6>References</h6>
+          </section> -->
+        </aside>
+        <!-- HEADER -->
+        <section>
+          <header class="name" aria-label="Akash Ghose">
+            <a href="/">
+              <svg
+                width="257px"
+                height="35px"
+                viewBox="0 0 350 35"
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <g
+                  id="Page-1"
+                  stroke="none"
+                  stroke-width="1"
+                  fill-rule="evenodd"
+                  font-family="Montserrat-Regular, Montserrat"
+                  font-size="48"
+                  font-weight="bold"
+                  color="green"
+                >
+                  <g
+                    id="Letter"
+                    transform="translate(-54.000000, -140.000000)"
+                    fill="#484848"
+                  >
+                    <text id="Akash-Ghose">
+                      <tspan x="54.728" y="174">Akash Ghose</tspan>
+                    </text>
+                  </g>
+                </g>
+              </svg>
+            </a>
+            <h6>Software Engineer/Data Scientist</h6>
+            <hr />
+          </header>
+          <!-- MAIN BODY -->
+          <section>
+            <section class="summary">
+              <h6 class="section-header">Summary</h6>
+              <p class="sanserif">
+                Meticulous and creative individual, hungry for knowledge and
+                growth.
+              </p>
+            </section>
+            <!-- EXPERIENCE -->
+            <section class="experience">
+              <h6 class="section-header">Experience</h6>
+              <ol>
+                <li>
+                  <header>
+                    <p class="sanserif">Software Engineer</p>
+                    <time>June 2017 – Present</time>
+                  </header>
+                  <span>FoodWeb - Non Profit Startup</span>
+                  <ul>
+                    <li>
+                      Created various PostgreSQL database tables and stored
+                      procedures
+                    </li>
+                    <li>Developed server-side functionality using Node.js</li>
+                    <li>
+                      Collaborated with the project lead to design and implement
+                      an efficient software architecture
+                    </li>
+                    <!-- <li>
+                      Assisted others with understanding the database structure
+                    </li> -->
+                    <li>Implemented client-side features using Angular</li>
+                  </ul>
+                </li>
+                <li>
+                  <header>
+                    <p class="sanserif">Teaching Assistant</p>
+                    <time>January 2017 – January 2020</time>
+                  </header>
+                  <span>University at Buffalo</span>
+                  <ul>
+                    <li>
+                      Led recitations and office hours for Intro to Programming
+                      I and II
+                    </li>
+                    <li>Assisted students with debugging code</li>
+                    <li>
+                      Clarified gaps to facilitate conceptual understanding
+                    </li>
+                    <li>Proofread professors’ instructions and code</li>
+                  </ul>
+                </li>
+              </ol>
+            </section>
+            <!-- PROJECTS -->
+            <section class="experience projects">
+              <h6 class="section-header">Projects</h6>
+              <ol>
+                <li>
+                  <header class="project-title">
+                    Glassdoor Mining project
+                  </header>
+                  <span class="project-description">
+                    <ul>
+                      <li>
+                        Used Python selenium to collect 2000 Glassdoor job
+                        postings regarding Data Scientists
+                      </li>
+                      <li>
+                        Utilized pandas, numpy and matplotlib to clean and analyze the data
+                      </li>
+                      <li>Used seaborn and matplotlib to visualize the data</li>
+                      <li>
+                        Applied Machine Learning algorithims to use data to
+                        predict an estimated salary
+                      </li>
+                      <li>
+                        Built a data product with Streamlit, showcasing all of
+                        the above
+                      </li>
+                      <li>
+                        View final data product at
+                        <a href="https://glassdoor-mining-proj.herokuapp.com/"
+                          > glassdoor-mining-proj.herokuapp.com</a
+                        >
+                      </li>
+                    </ul>
+                  </span>
+                </li>
+                <li>
+                  <header class="project-title">
+                    BLM Data Science project
+                  </header>
+                  <span class="project-description">
+                    <ul>
+                      <li>Used data found in consumerfinance.gov</li>
+                      <li>
+                        Applied R and DplyR methods to clean and analyze data
+                      </li>
+                      <li>Used Ggplot2 to graph it</li>
+                      <li>
+                        Demonstrated black mortgage loan applicants are more
+                        likely to be rejected than their white counterparts
+                      </li>
+                      <li>
+                        Used linear regression to predict applicant's income,
+                        given certain factors
+                      </li>
+                      <li>Built a data product with RShiny</li>
+                    </ul>
+                  </span>
+                </li>
+                <li>
+                  <header class="project-title">Other Projects</header>
+                  <span class="project-description">
+                    <ul>
+                      <li>
+                        Some of my other projects can be found at:
+                        <a href="/#projects">placeholder.com/#projects</a>
+                      </li>
+                      <li>
+                        Or visit my github at:
+                        <a href="github.com/aghose">github.com/aghose</a>
+                      </li>
+                    </ul>
+                  </span>
+                </li>
+              </ol>
+            </section>
+            <!-- EDUCATION -->
+            <section class="education">
+              <h6 class="section-header">Education</h6>
+              <ol>
+                <li>
+                  <div>
+                    <p class="sanserif">Bachelor of Arts in Economics</p>
+                    <time>Graduated: Dec 2020</time>
+                  </div>
+                  <div>
+                    <span>University At Buffalo</span>
+                    <span></span>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <p class="sanserif">Minor in Computer Science</p>
+                    <time>Graduated: Dec 2020</time>
+                  </div>
+                  <div>
+                    <span>University At Buffalo</span>
+                    <span></span>
+                  </div>
+                </li>
+              </ol>
+            </section>
+          </section>
+        </section>
+      </section>
+    </section>
+  </div>
+</template>
+
+<style scoped src="../css/paper.css"></style>
+
+<style scoped src="../css/typography.css"></style>
+
+<style scoped src="../css/resume-styles.css"></style>
+
+<!-- Print only-->
+<style src="../css/print.css"></style>
+
+<!-- Screen only-->
+<style src="../css/screen.css"></style>
+
+<script>
+export default {
+  name: 'Resume',
+  components: {},
+};
+</script>
