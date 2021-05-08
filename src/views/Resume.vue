@@ -27,7 +27,7 @@
               <li>
                 <p>
                   <i class="fa fa-globe-americas icon" title="Website"></i>
-                  <a href="https://">placeholder.com</a>
+                  <a href="https://www.akash-ghose.com">akash-ghose.com</a>
                 </p>
               </li>
               <li>
