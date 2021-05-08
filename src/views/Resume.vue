@@ -250,7 +250,7 @@
                     <ul>
                       <li>
                         Some of my other projects can be found at:
-                        <a href="/#projects">placeholder.com/#projects</a>
+                        <a href="/#projects">akash-ghose.com/#projects</a>
                       </li>
                       <li>
                         Or visit my github at:
