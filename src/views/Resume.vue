@@ -170,7 +170,7 @@
                     <p class="sanserif">Teaching Assistant</p>
                     <time>January 2017 – January 2020</time>
                   </header>
-                  <span>University at Buffalo</span>
+                  <span>University at Buffalo – Dr. Matthew Hertz</span>
                   <ul>
                     <li>
                       Led recitations and office hours for Intro to Programming
@@ -180,7 +180,7 @@
                     <li>
                       Clarified gaps to facilitate conceptual understanding
                     </li>
-                    <li>Proofread professors’ instructions and code</li>
+                    <li>Proofread professor's instructions and code</li>
                   </ul>
                 </li>
               </ol>
@@ -193,6 +193,7 @@
                   <header class="project-title">
                     Glassdoor Mining project
                   </header>
+                  <span>Supervised by Bina Ramamurthy</span>
                   <span class="project-description">
                     <ul>
                       <li>
