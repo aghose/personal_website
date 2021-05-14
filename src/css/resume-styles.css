@@ -57,7 +57,14 @@ p:-moz-only-whitespace, li:-moz-only-whitespace, div:-moz-only-whitespace, secti
 }
 
 #resume-vue a:hover {
-    color:darkgoldenrod;
+    color: var(--green);
+    font-weight: bold;
+    font-size: 1.05em;
+}
+
+#resume-vue header > a:hover {
+    color: var(--green);
+    font-size: 1.05em;
 }
 
 img {

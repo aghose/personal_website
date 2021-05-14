@@ -2,6 +2,7 @@ import Vue from 'vue';
 import VueRouter from 'vue-router';
 import Home from '../views/Home.vue';
 import Resume from '../views/Resume.vue';
+import Particles from '../views/Particles.vue';
 
 Vue.use(VueRouter);
 
@@ -23,6 +24,11 @@ const routes = [
     path: '/resume',
     name: 'Resume',
     component: Resume,
+  },
+  {
+    path: '/particles',
+    name: 'Particles',
+    component: Particles,
   },
 ];
 

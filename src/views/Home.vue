@@ -94,7 +94,7 @@
             <ul class="education text-white-50">
               <li>Eco 407: Intermediate Macroeconomics</li>
               <li>Eco 408: Special topics debate</li>
-              <li>Art 320: Web Design</li>
+              <li>ART 320: Web Design</li>
               <li>EAS 345: Intro to Data Science</li>
               <li>CSE 498: Independent Study</li>
               <li>CSE 487: Distributed Systems</li>
