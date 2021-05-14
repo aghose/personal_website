@@ -134,7 +134,7 @@ li .fa, li .fab, .icon {
 }
 
 #save > section:first-of-type > aside > section:last-child {
-    margin-top: auto;
+    /* margin-top: auto; */
 } 
 
 #save > section:first-of-type > section {
@@ -162,7 +162,7 @@ li .fa, li .fab, .icon {
 }
 
 #save > section:first-of-type > section > section > section:last-child {
-    margin-top: auto;
+    /* margin-top: auto; */
 }
 
 .references address {
@@ -285,6 +285,15 @@ li .fa, li .fab, .icon {
     margin-left: 1.618em;
 }
 
+.coursework {
+    font-weight: 400 !important;
+}
+
+.coursework ul > li {
+    list-style-type: circle;
+    margin-left: 1.618em;
+}
+
 /* Projects */
 .project-title {
     font-weight: 500;
@@ -292,7 +301,4 @@ li .fa, li .fab, .icon {
 .project-description ul{
     font-weight: 400;
     color: var(--dark-grey);
-}
-
-.projects a {
 }

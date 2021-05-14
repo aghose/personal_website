@@ -76,7 +76,7 @@
               <li><span>Streamlit</span></li>
               <li><span>DplyR</span></li>
               <li><span>Ggplot2</span></li>
-              <li><span>Shiny</span></li>
+              <li><span>RShiny</span></li>
             </ul>
           </section>
           <section class="skills">
@@ -135,7 +135,7 @@
             <section class="summary">
               <h6 class="section-header">Summary</h6>
               <p class="sanserif">
-                Meticulous and creative individual, hungry for knowledge and
+                Meticulous and creative individual, eager for knowledge and
                 growth.
               </p>
             </section>
@@ -146,7 +146,7 @@
                 <li>
                   <header>
                     <p class="sanserif">Software Engineer</p>
-                    <time>June 2017 – Present</time>
+                    <time>Jan 2021 – Present</time>
                   </header>
                   <span>FoodWeb - Non Profit Startup</span>
                   <ul>
@@ -193,29 +193,25 @@
                   <header class="project-title">
                     Glassdoor Mining project
                   </header>
-                  <span>Supervised by Bina Ramamurthy</span>
+                  <span>Supervised by Dr. Bina Ramamurthy</span>
                   <span class="project-description">
                     <ul>
                       <li>
-                        Used Python selenium to collect 2000 Glassdoor job
-                        postings regarding Data Scientists
+                        Mined 2000 Glassdoor Data Scientist job postings via
+                        Python Selenium
+                      </li>
+                      <li>Refined and processed data using Pandas and NumPy</li>
+                      <li>Graphed data with Seaborn and Matplotlib</li>
+                      <li>
+                        Predicted an estimated salary by applying various
+                        Machine Learning algorithms
                       </li>
                       <li>
-                        Utilized pandas, numpy and matplotlib to clean and analyze the data
-                      </li>
-                      <li>Used seaborn and matplotlib to visualize the data</li>
-                      <li>
-                        Applied Machine Learning algorithims to use data to
-                        predict an estimated salary
-                      </li>
-                      <li>
-                        Built a data product with Streamlit, showcasing all of
-                        the above
-                      </li>
-                      <li>
-                        View final data product at
-                        <a href="https://glassdoor-mining-proj.herokuapp.com/"
-                          > glassdoor-mining-proj.herokuapp.com</a
+                        Developed a configurable web app showcasing the analyzed
+                        data and predictive models:
+                        <a href="https://glassdoor-mining-proj.herokuapp.com/">
+                          glassdoor-mining-proj.herokuapp.com</a
+                        >
                         >
                       </li>
                     </ul>
@@ -227,20 +223,22 @@
                   </header>
                   <span class="project-description">
                     <ul>
-                      <li>Used data found in consumerfinance.gov</li>
                       <li>
-                        Applied R and DplyR methods to clean and analyze data
+                        Gathered statistical data from consumerfinance.gov
                       </li>
-                      <li>Used Ggplot2 to graph it</li>
+                      <li>
+                        Analyzed and cleaned data by applying R and DplyR
+                        methods
+                      </li>
+                      <li>Visualized data using Ggplot2</li>
                       <li>
                         Demonstrated black mortgage loan applicants are more
                         likely to be rejected than their white counterparts
                       </li>
                       <li>
-                        Used linear regression to predict applicant's income,
-                        given certain factors
+                        Forecasted applicant's income by applying linear
+                        regression
                       </li>
-                      <li>Built a data product with RShiny</li>
                     </ul>
                   </span>
                 </li>
@@ -249,11 +247,11 @@
                   <span class="project-description">
                     <ul>
                       <li>
-                        Some of my other projects can be found at:
+                        Various other projects can be found at:
                         <a href="/#projects">akash-ghose.com/#projects</a>
                       </li>
                       <li>
-                        Or visit my github at:
+                        Or visit github at:
                         <a href="github.com/aghose">github.com/aghose</a>
                       </li>
                     </ul>
@@ -268,22 +266,24 @@
                 <li>
                   <div>
                     <p class="sanserif">Bachelor of Arts in Economics</p>
-                    <time>Graduated: Dec 2020</time>
-                  </div>
-                  <div>
-                    <span>University At Buffalo</span>
-                    <span></span>
+                    <time>University at Buffalo: Dec 2020</time>
                   </div>
                 </li>
                 <li>
                   <div>
                     <p class="sanserif">Minor in Computer Science</p>
-                    <time>Graduated: Dec 2020</time>
+                    <time></time>
                   </div>
-                  <div>
-                    <span>University At Buffalo</span>
-                    <span></span>
-                  </div>
+                </li>
+                <li>
+                  <span class="coursework">
+                    <ul>
+                      <li>
+                        Coursework: Data Science, Distributed Systems, Web
+                        Design
+                      </li>
+                    </ul>
+                  </span>
                 </li>
               </ol>
             </section>
