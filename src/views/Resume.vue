@@ -41,10 +41,10 @@
           <section class="skills">
             <h6>Skills</h6>
             <ul>
+              <li><span>Machine Learning</span></li>
               <li><span>Data Cleaning</span></li>
               <li><span>Data Analysis</span></li>
               <li><span>Data Visualization</span></li>
-              <li><span>Machine Learning</span></li>
               <li><span>Responsive UI/UX Design</span></li>
             </ul>
           </section>
