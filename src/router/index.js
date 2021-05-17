@@ -3,6 +3,7 @@ import VueRouter from 'vue-router';
 import Home from '../views/Home.vue';
 import Resume from '../views/Resume.vue';
 import Particles from '../views/Particles.vue';
+import TicTacToe from '../views/TicTacToe.vue';
 
 Vue.use(VueRouter);
 
@@ -29,6 +30,11 @@ const routes = [
     path: '/particles',
     name: 'Particles',
     component: Particles,
+  },
+  {
+    path: '/tictactoe',
+    name: 'TicTacToe',
+    component: TicTacToe,
   },
 ];
 

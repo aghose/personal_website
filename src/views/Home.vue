@@ -211,7 +211,9 @@
           </div>
           <div class="col-xl-4 col-lg-5">
             <div class="featured-text text-center text-lg-left">
+              <a href="https://glassdoor-mining-proj.herokuapp.com/">
               <h4 class="text-white mb-4">Glassdoor Mining Project</h4>
+              </a>
               <p class="text-white-50 mb-0">
                 I have collected data from 2000 Glassdoor job posting regarding
                 Data Scientists. I have cleaned, processed and analyzed that
@@ -226,6 +228,7 @@
         <Project
           :img_left="true"
           img_name="blm.png"
+          link_url="https://github.com/aghose/EAS_345_term_project"
           title="BLM Data Science Term project"
           description="I collected data from multiple .gov sources with ambitions
                       of using the data to point out existence of/lack of racial
@@ -244,6 +247,7 @@
           :img_left="false"
           img_name="website.png"
           title="This Website!"
+          link_url="/"
           description="This website was originally made to be a static HTML/CSS
                     page, made to showcase myself for future potential
                     employers. However, as I started having more fun with it, I
@@ -256,6 +260,7 @@
         <Project
           :img_left="true"
           img_name="fullstack.png"
+          link_url="https://salty-wave-86247.herokuapp.com/"
           title="FullStack WebApp using Vue and Express"
           description="This is a simple fullstack app I made to introduce myself to Vue.
                     I heard that most modern companies use front-end frameworks to build
@@ -268,6 +273,7 @@
           :img_left="false"
           img_name="particles.png"
           title="Particles effect"
+          link_url="/particles"
           description="I sought to recreate the particles effect found on
                     vincentgarreau.com/particles.js/. This was just a fun
                     project I did to help further my understanding of
@@ -280,6 +286,7 @@
           :img_left="true"
           img_name="tictactoe.png"
           title="TicTacToe"
+          link_url="/tictactoe"
           description="This was a project made to introduce myself to
                     JavaScript"
         >

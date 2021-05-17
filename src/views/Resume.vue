@@ -210,9 +210,7 @@
                         Developed a configurable web app showcasing the analyzed
                         data and predictive models:
                         <a href="https://glassdoor-mining-proj.herokuapp.com/">
-                          glassdoor-mining-proj.herokuapp.com</a
-                        >
-                        >
+                          glassdoor-mining-proj.herokuapp.com</a>
                       </li>
                     </ul>
                   </span>
