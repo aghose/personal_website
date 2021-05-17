@@ -16,9 +16,11 @@
                 <div
                   class="project-text w-100 my-auto text-center text-lg-left"
                 >
-                  <h4 class="text-white">
-                    {{ title }}
-                  </h4>
+                  <a :href="link_url">
+                    <h4 class="text-white">
+                      {{ title }}
+                    </h4>
+                  </a>
                   <div class="description">
                     <p class="mb-0 text-white-50">
                       {{ description }}
@@ -49,7 +51,11 @@
                 <div
                   class="project-text w-100 my-auto text-center text-lg-right"
                 >
-                  <h4 class="text-white">{{ title }}</h4>
+                  <a :href="link_url">
+                    <h4 class="text-white">
+                      {{ title }}
+                    </h4>
+                  </a>
                   <div class="description">
                     <p class="mb-0 text-white-50">
                       {{ description }}
@@ -70,7 +76,7 @@
 </style>
 
 <style scoped>
-  /* .img-container{
+/* .img-container{
     background-image: url("var(--img_url)");
   } */
 </style>
@@ -84,6 +90,7 @@ export default {
     img_left: Boolean,
     title: String,
     description: String,
+    link_url: String,
   },
 };
 </script>
