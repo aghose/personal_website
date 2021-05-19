@@ -348,9 +348,8 @@
           </div>
         </div>
         <div class="social d-flex justify-content-center">
-          <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-          <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-          <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
+          <a class="mx-2" href="https://www.linkedin.com/in/akash-ghose-b08998211/"><i class="fab fa-linkedin"></i></a>
+          <a class="mx-2" href="https://github.com/aghose"><i class="fab fa-github"></i></a>
         </div>
       </div>
     </section>
