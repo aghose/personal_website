@@ -250,7 +250,7 @@
                       </li>
                       <li>
                         Or visit github at:
-                        <a href="github.com/aghose">github.com/aghose</a>
+                        <a href="https://www.github.com/aghose">github.com/aghose</a>
                       </li>
                     </ul>
                   </span>
