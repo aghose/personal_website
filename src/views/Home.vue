@@ -85,9 +85,10 @@
               CSE department for 6 semesters and an internship at FoodWeb.
               <br />
               <br />
-              Data Science is the field where I hope to be able to combine my
-              knack for connecting the dots and penchant for computer science
-              and make a career out of it. <br />
+              Data Science is the field of study that I thoroughly enjoyed
+              during my schooling. In it, I was able to combine my knack for
+              connecting the dots and penchant for computer science and make
+              projects that fascinated me. <br />
               My favorite classes throughout my academic career, in no
               particular order, were:
             </p>
@@ -212,7 +213,7 @@
           <div class="col-xl-4 col-lg-5">
             <div class="featured-text text-center text-lg-left">
               <a href="https://glassdoor-mining-proj.herokuapp.com/">
-              <h4 class="text-white mb-4">Glassdoor Mining Project</h4>
+                <h4 class="text-white mb-4">Glassdoor Mining Project</h4>
               </a>
               <p class="text-white-50 mb-0">
                 I have collected data from 2000 Glassdoor job posting regarding
@@ -291,7 +292,6 @@
                     JavaScript"
         >
         </Project>
-
       </div>
     </section>
 
@@ -348,8 +348,14 @@
           </div>
         </div>
         <div class="social d-flex justify-content-center">
-          <a class="mx-2" href="https://www.linkedin.com/in/akash-ghose-b08998211/"><i class="fab fa-linkedin"></i></a>
-          <a class="mx-2" href="https://github.com/aghose"><i class="fab fa-github"></i></a>
+          <a
+            class="mx-2"
+            href="https://www.linkedin.com/in/akash-ghose-b08998211/"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a class="mx-2" href="https://github.com/aghose"
+            ><i class="fab fa-github"></i
+          ></a>
         </div>
       </div>
     </section>
@@ -366,12 +372,12 @@
 
 <script>
 // @ is an alias to /src
-import Vue from 'vue';
-import LoadScript from 'vue-plugin-load-script';
-import Project from '@/components/Project.vue';
+import Vue from "vue";
+import LoadScript from "vue-plugin-load-script";
+import Project from "@/components/Project.vue";
 
 export default {
-  name: 'Home',
+  name: "Home",
   components: {
     Project,
   },
@@ -380,7 +386,7 @@ export default {
       // Code that will run only after the
       // entire view has been rendered
       Vue.use(LoadScript);
-      Vue.loadScript('./js/scripts.js');
+      Vue.loadScript("./js/scripts.js");
     });
   },
 };
