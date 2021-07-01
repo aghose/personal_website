@@ -372,12 +372,12 @@
 
 <script>
 // @ is an alias to /src
-import Vue from "vue";
-import LoadScript from "vue-plugin-load-script";
-import Project from "@/components/Project.vue";
+import Vue from 'vue';
+import LoadScript from 'vue-plugin-load-script';
+import Project from '@/components/Project.vue';
 
 export default {
-  name: "Home",
+  name: 'Home',
   components: {
     Project,
   },
@@ -386,7 +386,7 @@ export default {
       // Code that will run only after the
       // entire view has been rendered
       Vue.use(LoadScript);
-      Vue.loadScript("./js/scripts.js");
+      Vue.loadScript('./js/scripts.js');
     });
   },
 };
