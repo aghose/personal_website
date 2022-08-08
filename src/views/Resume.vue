@@ -2,6 +2,7 @@
   <div id="resume-vue" class="letter">
     <section id="save">
       <section class="sheet">
+
         <aside class="aside">
           <section class="contact">
             <h6>Contact</h6>
@@ -41,11 +42,11 @@
           <section class="skills">
             <h6>Skills</h6>
             <ul>
-              <li><span>Machine Learning</span></li>
+              <li><span>Responsive UI/UX Design</span></li>
               <li><span>Data Cleaning</span></li>
               <li><span>Data Analysis</span></li>
               <li><span>Data Visualization</span></li>
-              <li><span>Responsive UI/UX Design</span></li>
+              <li><span>Machine Learning</span></li>
             </ul>
           </section>
           <section class="skills">
@@ -89,12 +90,10 @@
               <li><span>K-Means</span></li>
             </ul>
           </section>
-          <!-- <section class="references">
-            <h6>References</h6>
-          </section> -->
         </aside>
-        <!-- HEADER -->
+
         <section>
+        <!-- HEADER -->
           <header class="name" aria-label="Akash Ghose">
             <a href="/">
               <svg
@@ -127,26 +126,45 @@
                 </g>
               </svg>
             </a>
-            <h6>Software Engineer/Data Scientist</h6>
+            <h6>Software Engineer</h6>
             <hr />
           </header>
           <!-- MAIN BODY -->
           <section>
-            <section class="summary">
-              <h6 class="section-header">Summary</h6>
-              <p class="sanserif">
-                Meticulous and creative individual, eager for knowledge and
-                growth.
-              </p>
-            </section>
+
             <!-- EXPERIENCE -->
             <section class="experience">
               <h6 class="section-header">Experience</h6>
               <ol>
+
+              <!--PPT -->
+              <!-- eslint-disable max-len -->
+                <li>
+                  <header>
+                    <p class="sanserif">Software Developer</p>
+                    <time>Oct 2021 – Present</time>
+                  </header>
+                  <span>Post Process Technologies</span>
+                  <ul>
+                    <li>
+                      Restructed large parts of our web app for a significantly improved user experience
+                    </li>
+                    <li>
+                      Created and maintened several components to increase web app functionality using
+                      using Angular, Node.Js and .Net Core
+                    </li>
+                    <li>
+                      Implemented micro-service to interface with machines and send alerts to users
+                    </li>
+                    <li>Regularly deployed code using Azure DevOps</li>
+                  </ul>
+                </li>
+
+              <!--FoodWeb -->
                 <li>
                   <header>
                     <p class="sanserif">Software Engineer</p>
-                    <time>Jan 2021 – Present</time>
+                    <time>Jan 2021 – Oct 2021</time>
                   </header>
                   <span>FoodWeb - Non Profit Startup</span>
                   <ul>
@@ -159,12 +177,11 @@
                       Collaborated with the project lead to design and implement
                       an efficient software architecture
                     </li>
-                    <!-- <li>
-                      Assisted others with understanding the database structure
-                    </li> -->
                     <li>Implemented client-side features using Angular</li>
                   </ul>
                 </li>
+
+                <!--Teaching Assistant -->
                 <li>
                   <header>
                     <p class="sanserif">Teaching Assistant</p>
@@ -185,6 +202,7 @@
                 </li>
               </ol>
             </section>
+
             <!-- PROJECTS -->
             <section class="experience projects">
               <h6 class="section-header">Projects</h6>
