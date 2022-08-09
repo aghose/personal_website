@@ -149,10 +149,10 @@
                   <span>Post Process Technologies</span>
                   <ul>
                     <li>
-                      Restructed large parts of C3D web app for a significantly improved user experience
+                      Restructured large parts of C3D web app for a significantly improved user experience
                     </li>
                     <li>
-                      Built and maintened several components to increase web app functionality
+                      Built and maintained several components to increase web app functionality
                       using Angular and .Net Core
                     </li>
                     <li>
