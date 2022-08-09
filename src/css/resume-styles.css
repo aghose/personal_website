@@ -32,7 +32,7 @@ p:-moz-only-whitespace, li:-moz-only-whitespace, div:-moz-only-whitespace, secti
 }
 
 #resume-vue {
-    font-size: 0.80em;
+    font-size: 0.75em;
     margin: 0 auto;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
