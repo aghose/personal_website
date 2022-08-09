@@ -43,15 +43,17 @@
             <h6>Skills</h6>
             <ul>
               <li><span>Responsive UI/UX Design</span></li>
-              <li><span>Data Cleaning</span></li>
-              <li><span>Data Analysis</span></li>
-              <li><span>Data Visualization</span></li>
+              <li><span>Data Modeling and Analysis</span></li>
               <li><span>Machine Learning</span></li>
             </ul>
           </section>
           <section class="skills">
             <h6>Technologies</h6>
             <ul>
+              <li><span>Angular</span></li>
+              <li><span>.Net Core</span></li>
+              <li><span>EF Core</span></li>
+              <li><span>WPF</span></li>
               <li><span>Python</span></li>
               <li><span>R</span></li>
               <li><span>Java</span></li>
@@ -60,8 +62,8 @@
               <li><span>Bootstrap</span></li>
               <li><span>JavaScript</span></li>
               <li><span>Node.js</span></li>
+              <li><span>Express.js</span></li>
               <li><span>Vue.js</span></li>
-              <li><span>Angular</span></li>
               <li><span>PostgreSQL</span></li>
               <li><span>MongoDB</span></li>
             </ul>
@@ -147,16 +149,19 @@
                   <span>Post Process Technologies</span>
                   <ul>
                     <li>
-                      Restructed large parts of our web app for a significantly improved user experience
+                      Restructed large parts of C3D web app for a significantly improved user experience
                     </li>
                     <li>
-                      Created and maintened several components to increase web app functionality using
-                      using Angular, Node.Js and .Net Core
+                      Built and maintened several components to increase web app functionality
+                      using Angular and .Net Core
                     </li>
                     <li>
-                      Implemented micro-service to interface with machines and send alerts to users
+                      Created and manipulated SQL server tables using Entity Framework Core
                     </li>
-                    <li>Regularly deployed code using Azure DevOps</li>
+                    <li>
+                      Implemented micro-services to interface with machines and send alerts to users
+                    </li>
+                    <li>Interfaced with management to facilitate team understanding of projects and coordinate attainable timelines</li>
                   </ul>
                 </li>
 
