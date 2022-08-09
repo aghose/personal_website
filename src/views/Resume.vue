@@ -22,7 +22,7 @@
               <li>
                 <p>
                   <i class="fa fa-envelope icon" title="Email"></i>
-                  <a href="mailto:aghose@buffalo.edu">aghose@buffalo.edu</a>
+                  <a href="mailto:akash.ghose30@gmail.com">akash.ghose30@gmail.com</a>
                 </p>
               </li>
               <li>
