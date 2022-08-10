@@ -319,7 +319,7 @@
                 <h4 class="text-uppercase m-0">Address</h4>
                 <hr class="my-4" />
                 <div class="small text-black-50">
-                  35 Slate Creek Dr. Apt 12, Cheektowaga, NY
+                  Buffalo, NY
                 </div>
               </div>
             </div>
@@ -331,7 +331,7 @@
                 <h4 class="text-uppercase m-0">Email</h4>
                 <hr class="my-4" />
                 <div class="small text-black-50">
-                  <a href="#!">aghose@buffalo.edu</a>
+                  <a href="#!">akash.ghose30@gmail.com</a>
                 </div>
               </div>
             </div>
