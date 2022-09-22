@@ -158,7 +158,12 @@
                       Created and manipulated SQL server tables using Entity Framework Core
                     </li>
                     <li>
-                      Implemented micro-services to interface with machines and send alerts to users
+                      Implemented micro-services to interface with machines and
+                      send alerts to users
+                    </li>
+                    <li>
+                      Migrated WPF code to newer MVMM architecture to increase
+                      maintainability
                     </li>
                     <li>Interfaced with management to facilitate team understanding of projects and coordinate attainable timelines</li>
                   </ul>
