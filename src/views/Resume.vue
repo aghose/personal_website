@@ -144,7 +144,7 @@
                 <li>
                   <header>
                     <p class="sanserif">Software Developer</p>
-                    <time>Oct 2021 – Present</time>
+                    <time>Oct 2021 – Sept 2022</time>
                   </header>
                   <span>Post Process Technologies</span>
                   <ul>
