@@ -162,7 +162,7 @@
                       send alerts to users
                     </li>
                     <li>
-                      Migrated WPF code to newer MVMM architecture to increase
+                      Migrated WPF code to newer custom MVVM architecture to increase
                       maintainability
                     </li>
                     <li>Interfaced with management to facilitate team understanding of projects and coordinate attainable timelines</li>
