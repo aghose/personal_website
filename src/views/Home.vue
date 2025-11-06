@@ -375,6 +375,7 @@
 <script>
 // @ is an alias to /src
 import Project from '@/components/Project.vue'
+import { initSmoothScroll } from '@/utils/smoothScroll'
 
 export default {
   name: 'Home',
@@ -383,6 +384,12 @@ export default {
   },
   mounted () {
     this.$nextTick(() => {
+      // Initialize smooth scrolling for all js-scroll-trigger elements
+      initSmoothScroll('js-scroll-trigger', {
+        duration: 1000,
+        offset: 70
+      })
+
       // Code that will run only after the
       // entire view has been rendered
       this.$loadScript('./js/scripts.js')
