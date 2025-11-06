@@ -214,9 +214,9 @@
           </div>
           <div class="col-xl-4 col-lg-5">
             <div class="featured-text text-center text-lg-left">
-              <a href="https://glassdoor-mining-proj.herokuapp.com/">
+              <router-link to="/archived/glassdoor">
                 <h4 class="text-white mb-4">Glassdoor Mining Project</h4>
-              </a>
+              </router-link>
               <p class="text-white-50 mb-0">
                 I have collected data from 2000 Glassdoor job posting regarding
                 Data Scientists. I have cleaned, processed and analyzed that
@@ -231,7 +231,7 @@
         <Project
           :img_left="true"
           img_name="blm.png"
-          link_url="https://github.com/aghose/EAS_345_term_project"
+          link_url="/archived/blm"
           title="BLM Data Science Term project"
           description="I collected data from multiple .gov sources with ambitions
                       of using the data to point out existence of/lack of racial
@@ -263,7 +263,7 @@
         <Project
           :img_left="true"
           img_name="fullstack.png"
-          link_url="https://salty-wave-86247.herokuapp.com/"
+          link_url="/archived/fullstack"
           title="FullStack WebApp using Vue and Express"
           description="This is a simple fullstack app I made to introduce myself to Vue.
                     I heard that most modern companies use front-end frameworks to build

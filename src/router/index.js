@@ -3,6 +3,7 @@ import Home from '../views/Home.vue'
 import Resume from '../views/Resume.vue'
 import Particles from '../views/Particles.vue'
 import TicTacToe from '../views/TicTacToe.vue'
+import ArchivedProject from '../views/ArchivedProject.vue'
 
 const routes = [
   {
@@ -32,6 +33,11 @@ const routes = [
     path: '/tictactoe',
     name: 'TicTacToe',
     component: TicTacToe
+  },
+  {
+    path: '/archived/:id',
+    name: 'ArchivedProject',
+    component: ArchivedProject
   }
 ]
 
