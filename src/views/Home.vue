@@ -101,7 +101,7 @@
               <li>CSE 487: Distributed Systems</li>
             </ul>
             <p class="education text-white-50" id="one">
-              If you wish to see my official résumé, it can be found
+              If you wish to see my résumé, it can be found
               <a href="/resume"> here</a>.
             </p>
 
@@ -116,8 +116,8 @@
                 learning to be parents while also paying for it all by ourselves
                 was difficult to say the least. We had more than our fair share
                 of obstacles, but through it all, we didn't sink; we swam and
-                perservered through it all. At the end of the day, our struggles
-                have made us more reselient and compassionate. I am proud of who
+                persevered through it all. At the end of the day, our struggles
+                have made us more resilient and compassionate. I am proud of who
                 we are as individuals and as a family, and I look forward to
                 facing life's future challenges with the same tenacity and will
                 with which we have faced the previous ones!
@@ -302,7 +302,7 @@
           <div class="col-md-10 col-lg-8 mx-auto text-center">
             <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
             <h2 class="text-white mb-5">
-              <a href="/resume">Click here to see my official résumé</a>
+              <a href="/resume">Click here to see my résumé</a>
             </h2>
           </div>
         </div>
