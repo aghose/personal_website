@@ -44,7 +44,9 @@
         <div class="mx-auto text-center">
           <h1 class="mx-auto my-0 text-uppercase">hello</h1>
           <h2 class="text-white-50 mx-auto mt-2 mb-5">
-            I am Akash Ghose. I am a recent University at Buffalo graduate.
+            I am Akash Ghose. I am a Software Engineer with 4+ years designing and maintaining front-end and back-end systems and automating
+            manual workflows across both startup and corporate environments. I translate requirements into
+            actionable roadmaps and ship iteratively in agile, Scrum/Kanban frameworks.
           </h2>
           <a class="btn btn-primary js-scroll-trigger" href="#about"
             >Get To Know Me</a

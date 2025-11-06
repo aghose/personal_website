@@ -3561,7 +3561,7 @@ input[type=button].btn-block {
   min-height: 1.5rem;
   padding-left: 1.5rem;
   -webkit-print-color-adjust: exact;
-          color-adjust: exact;
+          print-color-adjust: exact;
 }
 
 .custom-control-inline {
@@ -10254,6 +10254,7 @@ h3 {
 .masthead h2 {
   max-width: 20rem;
   font-size: 1rem;
+  text-align: center;
 }
 @media (min-width: 768px) {
   .masthead h1 {
@@ -10274,6 +10275,7 @@ h3 {
   .masthead h2 {
     max-width: 30rem;
     font-size: 1.25rem;
+    text-align: left;
   }
 }
 
@@ -10283,6 +10285,7 @@ h3 {
 }
 .about-section p {
   margin-bottom: 5rem;
+  text-align: left;
 }
 
 .about-section .education{
