@@ -16,13 +16,13 @@
 </style>
 
 <script>
-import particles from '../services/particles';
+import particles from '../services/particles'
 
 export default {
   name: 'Particles',
   components: {},
-  mounted() {
-    particles();
-  },
-};
+  mounted () {
+    particles()
+  }
+}
 </script>

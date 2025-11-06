@@ -90,7 +90,7 @@ export default {
     img_left: Boolean,
     title: String,
     description: String,
-    link_url: String,
-  },
-};
+    link_url: String
+  }
+}
 </script>

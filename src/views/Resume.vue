@@ -334,6 +334,6 @@
 <script>
 export default {
   name: 'Resume',
-  components: {},
-};
+  components: {}
+}
 </script>

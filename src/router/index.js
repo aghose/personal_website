@@ -1,17 +1,14 @@
-import Vue from 'vue';
-import VueRouter from 'vue-router';
-import Home from '../views/Home.vue';
-import Resume from '../views/Resume.vue';
-import Particles from '../views/Particles.vue';
-import TicTacToe from '../views/TicTacToe.vue';
-
-Vue.use(VueRouter);
+import { createRouter, createWebHistory } from 'vue-router'
+import Home from '../views/Home.vue'
+import Resume from '../views/Resume.vue'
+import Particles from '../views/Particles.vue'
+import TicTacToe from '../views/TicTacToe.vue'
 
 const routes = [
   {
     path: '/',
     name: 'Home',
-    component: Home,
+    component: Home
   },
   // {
   //   path: '/about',
@@ -24,24 +21,23 @@ const routes = [
   {
     path: '/resume',
     name: 'Resume',
-    component: Resume,
+    component: Resume
   },
   {
     path: '/particles',
     name: 'Particles',
-    component: Particles,
+    component: Particles
   },
   {
     path: '/tictactoe',
     name: 'TicTacToe',
-    component: TicTacToe,
-  },
-];
+    component: TicTacToe
+  }
+]
 
-const router = new VueRouter({
-  mode: 'history',
-  base: process.env.BASE_URL,
-  routes,
-});
+const router = createRouter({
+  history: createWebHistory(process.env.BASE_URL),
+  routes
+})
 
-export default router;
+export default router

@@ -372,22 +372,19 @@
 
 <script>
 // @ is an alias to /src
-import Vue from 'vue';
-import LoadScript from 'vue-plugin-load-script';
-import Project from '@/components/Project.vue';
+import Project from '@/components/Project.vue'
 
 export default {
   name: 'Home',
   components: {
-    Project,
+    Project
   },
-  mounted() {
+  mounted () {
     this.$nextTick(() => {
       // Code that will run only after the
       // entire view has been rendered
-      Vue.use(LoadScript);
-      Vue.loadScript('./js/scripts.js');
-    });
-  },
-};
+      this.$loadScript('./js/scripts.js')
+    })
+  }
+}
 </script>
