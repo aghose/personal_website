@@ -5,6 +5,10 @@
 
   .sheet {
     border: 1px solid black;
+    height: auto;
+    min-height: 296mm;
+    overflow-y: auto;
+    max-height: calc(100vh - 40px);
   }
 
   #save > section:first-of-type > aside {
