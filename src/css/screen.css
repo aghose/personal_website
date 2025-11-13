@@ -87,4 +87,34 @@
     position: relative;
     top: 1px;
   }
+
+  /* Tablet styles (768px and below) */
+  @media (max-width: 768px) {
+    #resume-vue {
+      padding: 1em;
+    }
+
+    .sheet {
+      width: 100% !important;
+      margin: 0 !important;
+      border: none;
+    }
+  }
+
+  /* Mobile styles (600px and below) */
+  @media (max-width: 600px) {
+    #resume-vue {
+      padding: 0.5em;
+      font-size: 0.85em;
+    }
+
+    .sheet {
+      box-shadow: none;
+    }
+
+    #document-controls,
+    #github-link {
+      display: none;
+    }
+  }
 }

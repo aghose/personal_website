@@ -318,3 +318,162 @@ li .fa, li .fab, .icon {
     font-weight: bold !important;
     font-size: 1em !important;
 }
+
+/* ===================================
+   RESPONSIVE DESIGN - MOBILE & TABLET
+   =================================== */
+
+/* Tablet breakpoint (768px and below) */
+@media screen and (max-width: 768px) {
+    #resume-vue {
+        font-size: 0.85em;
+    }
+
+    /* Stack sidebar and main content vertically */
+    #save > section:first-of-type {
+        flex-direction: column;
+    }
+
+    /* Make sidebar and main content full width */
+    #save > section:first-of-type > aside,
+    #save > section:first-of-type > section {
+        flex-basis: 100%;
+        width: 100%;
+    }
+
+    /* Adjust sidebar background for better mobile appearance */
+    #save > section:first-of-type > aside {
+        padding: 1em;
+        order: 2; /* Move sidebar below main content */
+    }
+
+    /* Reorder main content to appear first */
+    #save > section:first-of-type > section {
+        order: 1;
+    }
+
+    /* Reduce header height on tablets */
+    #save > section:first-of-type > section > header {
+        flex-basis: auto;
+        min-height: 0;
+    }
+
+    /* Make name/logo smaller */
+    header.name svg {
+        width: 200px;
+        height: auto;
+    }
+
+    /* Adjust spacing */
+    #save > section:first-of-type > aside > section + section {
+        margin-top: 1.5em;
+    }
+
+    #save > section:first-of-type > section > section > section + section {
+        margin-top: 1em;
+    }
+}
+
+/* Mobile breakpoint (600px and below) */
+@media screen and (max-width: 600px) {
+    #resume-vue {
+        font-size: 0.75em;
+        --main-width: 100%;
+        --sidebar-width: 100%;
+    }
+
+    /* Tighter padding on mobile */
+    #save > section:first-of-type > aside {
+        padding: 0.8em;
+    }
+
+    #save > section:first-of-type > section > header,
+    #save > section:first-of-type > section > section {
+        padding: 0.8em;
+    }
+
+    /* Make name/logo even smaller for mobile */
+    header.name svg {
+        width: 180px;
+        height: auto;
+    }
+
+    /* Reduce margins between sections */
+    #save > section:first-of-type > aside > section + section {
+        margin-top: 1.2em;
+    }
+
+    #save > section:first-of-type > section > section > section + section {
+        margin-top: 0.8em;
+    }
+
+    .experience ol > li + li {
+        margin-top: 0.8em;
+    }
+
+    /* Adjust experience/education headers for mobile */
+    .education ol > li div,
+    .experience ol > li header {
+        flex-direction: column;
+        gap: 0.2em;
+    }
+
+    .education ol > li div > *:last-child,
+    .experience ol > li header > *:last-child {
+        margin-left: 0;
+        text-align: left;
+    }
+
+    /* Reduce font sizes slightly */
+    .experience ol > li header p {
+        font-size: 105%;
+    }
+
+    time {
+        font-size: 0.9em;
+    }
+
+    /* Make skills/technologies wrap better */
+    .skills > ul > li,
+    .sidebar-segment > ul > li {
+        margin: 4px 4px 0 0;
+    }
+
+    .skills > ul > li > span,
+    .sidebar-segment > ul > li > span {
+        padding: 3px 6px;
+        font-size: 0.95em;
+    }
+
+    /* Adjust icon spacing */
+    li .fa, li .fab, .icon {
+        margin-right: 0.5em;
+    }
+}
+
+/* Small mobile breakpoint (400px and below) */
+@media screen and (max-width: 400px) {
+    #resume-vue {
+        font-size: 0.7em;
+    }
+
+    header.name svg {
+        width: 150px;
+    }
+
+    /* Further reduce padding */
+    #save > section:first-of-type > aside,
+    #save > section:first-of-type > section > header,
+    #save > section:first-of-type > section > section {
+        padding: 0.6em;
+    }
+
+    /* Tighter spacing */
+    .experience ol > li ul li {
+        margin-left: 1em;
+    }
+
+    h6 {
+        font-size: 1.1rem;
+    }
+}
