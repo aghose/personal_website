@@ -379,6 +379,12 @@ li .fa, li .fab, .icon {
     #save > section:first-of-type > section > section > section + section {
         margin-top: 1em;
     }
+
+    /* Add bottom border and spacing to Education section to mirror header */
+    .education {
+        padding-bottom: 1.5em;
+        border-bottom: 1px solid gray;
+    }
 }
 
 /* Mobile breakpoint (600px and below) */
