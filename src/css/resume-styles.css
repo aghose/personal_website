@@ -202,6 +202,13 @@ li .fa, li .fab, .icon {
     color: inherit;
 }
 
+/* Icon wrapper for contact section - provides spacing between icon and text */
+.contact .icon-wrapper {
+    display: inline-block;
+    margin-right: .5em;
+    text-align: center;
+}
+
 /* Summary */
 
 .summary p {

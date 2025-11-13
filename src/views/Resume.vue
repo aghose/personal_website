@@ -9,31 +9,41 @@
             <ul>
               <li>
                 <p>
-                  <i class="fa fa-map-marker-alt" title="Location"></i> Buffalo,
-                  NY
+                  <span class="icon-wrapper">
+                    <i class="fa fa-map-marker-alt" title="Location"></i>
+                  </span>
+                  Buffalo, NY
                 </p>
               </li>
               <li>
                 <p>
-                  <i class="fa fa-phone" title="Cell phone"></i>
+                  <span class="icon-wrapper">
+                    <i class="fa fa-phone" title="Cell phone"></i>
+                  </span>
                   <a href="tel:7164822188">(716) 482-2188</a>
                 </p>
               </li>
               <li>
                 <p>
-                  <i class="fa fa-envelope" title="Email"></i>
+                  <span class="icon-wrapper">
+                    <i class="fa fa-envelope" title="Email"></i>
+                  </span>
                   <a href="mailto:akash.ghose30@gmail.com">akash.ghose30@gmail.com</a>
                 </p>
               </li>
               <li>
                 <p>
-                  <i class="fa fa-globe-americas" title="Website"></i>
+                  <span class="icon-wrapper">
+                    <i class="fa fa-globe-americas" title="Website"></i>
+                  </span>
                   <a href="https://www.akash-ghose.com">akash-ghose.com</a>
                 </p>
               </li>
               <li>
                 <p>
-                  <i class="fab fa-github" title="GitHub"></i>
+                  <span class="icon-wrapper">
+                    <i class="fab fa-github" title="GitHub"></i>
+                  </span>
                   <a href="https://github.com/aghose">github.com/aghose</a>
                 </p>
               </li>
