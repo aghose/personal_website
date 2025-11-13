@@ -9,79 +9,97 @@
             <ul>
               <li>
                 <p>
-                  <i class="fa fa-map-marker-alt icon" title="Location"></i
-                  >Buffalo, NY
+                  <i class="fa fa-map-marker-alt" title="Location"></i> Buffalo,
+                  NY
                 </p>
               </li>
               <li>
                 <p>
-                  <i class="fa fa-phone icon" title="Cell phone"></i>
+                  <i class="fa fa-phone" title="Cell phone"></i>
                   <a href="tel:7164822188">(716) 482-2188</a>
                 </p>
               </li>
               <li>
                 <p>
-                  <i class="fa fa-envelope icon" title="Email"></i>
+                  <i class="fa fa-envelope" title="Email"></i>
                   <a href="mailto:akash.ghose30@gmail.com">akash.ghose30@gmail.com</a>
                 </p>
               </li>
               <li>
                 <p>
-                  <i class="fa fa-globe-americas icon" title="Website"></i>
+                  <i class="fa fa-globe-americas" title="Website"></i>
                   <a href="https://www.akash-ghose.com">akash-ghose.com</a>
                 </p>
               </li>
               <li>
                 <p>
-                  <i class="fab fa-github icon" title="GitHub"></i>
+                  <i class="fab fa-github" title="GitHub"></i>
                   <a href="https://github.com/aghose">github.com/aghose</a>
                 </p>
               </li>
             </ul>
           </section>
-          <section class="skills">
+          <section class="sidebar-segment">
             <h6>Skills</h6>
+              <ul>
+                <li><span>Workflow Automation</span></li>
+                <li><span>Backend APIs</span></li>
+                <li><span>System Integration</span></li>
+                <li><span>Data Engineering & Modeling</span></li>
+                <li><span>Responsive UI/UX</span></li>
+                <li><span>Authentication & Connectivity</span></li>
+                <li><span>Logging & Observability</span></li>
+              </ul>
+          </section>
+
+          <!-- Core Strengths (replaces Algorithms) -->
+          <section class="sidebar-segment">
+            <h6>Core Strengths</h6>
             <ul>
-              <li><span>Responsive UI/UX Design</span></li>
-              <li><span>Data Modeling and Analysis</span></li>
+              <li><span>Clear communication</span></li>
+              <li><span>Stakeholder partnership</span></li>
+              <li><span>Ownership & initiative</span></li>
+              <li><span>Structured problem solving</span></li>
+              <li><span>Planning & prioritization</span></li>
             </ul>
           </section>
-          <section class="skills">
+
+          <section class="sidebar-segment">
             <h6>Technologies</h6>
             <ul>
-              <li><span>Angular</span></li>
-              <li><span>.Net Core</span></li>
-              <li><span>EF Core</span></li>
-              <li><span>WPF</span></li>
+              <li><span>.NET Core</span></li>
+              <li><span>C#</span></li>
               <li><span>Python</span></li>
-              <li><span>R</span></li>
-              <li><span>Java</span></li>
-              <li><span>HTML</span></li>
-              <li><span>CSS</span></li>
-              <li><span>Bootstrap</span></li>
-              <li><span>JavaScript</span></li>
+              <li><span>SQL Server</span></li>
+              <li><span>Oracle</span></li>
+              <li><span>Entity Framework Core</span></li>
+              <li><span>Power Automate</span></li>
+              <li><span>SharePoint</span></li>
+              <li><span>Selenium</span></li>
+              <li><span>Angular</span></li>
+              <li><span>WPF (MVVM)</span></li>
+              <li><span>Git</span></li>
               <li><span>Node.js</span></li>
-              <li><span>Express.js</span></li>
-              <li><span>Vue.js</span></li>
               <li><span>PostgreSQL</span></li>
-              <li><span>MongoDB</span></li>
+              <li><span>R</span></li>
+              <li><span>HTML/CSS/JavaScript</span></li>
             </ul>
           </section>
-          <section class="skills">
+          <section class="sidebar-segment">
             <h6>Libraries</h6>
             <ul>
               <li><span>Pandas</span></li>
               <li><span>NumPy</span></li>
-              <li><span>Seaborn</span></li>
               <li><span>Matplotlib</span></li>
-              <li><span>Selenium</span></li>
+              <li><span>Seaborn</span></li>
+              <li><span>scikit-learn</span></li>
+              <li><span>dplyr</span></li>
+              <li><span>ggplot2</span></li>
+              <li><span>Shiny (R)</span></li>
               <li><span>Streamlit</span></li>
-              <li><span>DplyR</span></li>
-              <li><span>Ggplot2</span></li>
-              <li><span>RShiny</span></li>
             </ul>
           </section>
-          <section class="skills">
+          <!-- <section class="sidebar-segment">
             <h6>Algorithms</h6>
             <ul>
               <li><span>Linear Regression</span></li>
@@ -90,13 +108,12 @@
               <li><span>KNN</span></li>
               <li><span>K-Means</span></li>
             </ul>
-          </section>
+          </section> -->
         </aside>
-
-        <section>
         <!-- HEADER -->
+        <section>
           <header class="name" aria-label="Akash Ghose">
-            <a href="/">
+            <router-link to="/">
               <svg
                 width="257px"
                 height="35px"
@@ -126,20 +143,59 @@
                   </g>
                 </g>
               </svg>
-            </a>
+            </router-link>
             <h6>Software Engineer</h6>
             <hr />
           </header>
           <!-- MAIN BODY -->
           <section>
-
             <!-- EXPERIENCE -->
             <section class="experience">
               <h6 class="section-header">Experience</h6>
               <ol>
 
-              <!--PPT -->
-              <!-- eslint-disable max-len -->
+                <!--M&T -->
+                <!-- eslint-disable max-len -->
+                <li>
+                  <header>
+                    <p class="sanserif">Software Engineer I</p>
+                    <time>Jan 2023 – Oct 2025</time>
+                  </header>
+                  <span>M&T Bank - Electronic Financial Crimes Investigations</span>
+                  <ul>
+                    <li>
+                      Initiated the design of a SharePoint + Power Automate workflow to streamline BSA/AML screening;
+                      authored the architecture, built a proof-of-concept, and defined audit-trail and folder-scoped triggers.
+                    </li>
+                    <li>
+                      Designed a Wire Screening approval flow (“any two approvers from a group”) with folder-scoped triggers,
+                      automatic moves to Accepted/Rejected libraries, and Teams notifications that reduced status chasing.
+                    </li>
+                    <li>
+                      Developed resilient Selenium crawlers for case/negative-news portals with retry/backoff and structured exports
+                      (CSV / pipe-delimited), including automated PDF generation and flattening.
+                    </li>
+                    <li>
+                      Implemented structured, centralized logging and defensive error handling across tools, which sped incident triage
+                      and simplified on-call support.
+                    </li>
+                    <li>
+                      Implemented SQL Server extract utilities that executed views and exported strongly-typed, pipe-delimited files;
+                      hardened authentication via Kerberos/LDAP and ODBC on Linux/Windows.
+                    </li>
+                    <li>
+                      Standardized configuration, logging, and exception patterns (config-driven behavior, consistent conventions),
+                      improving maintainability and reuse.
+                    </li>
+                    <li>
+                      Partnered with Compliance and stakeholders to deliver iteratively (MVP → enhancements) and maintained concise
+                      internal docs/READMEs for handoffs.
+                    </li>
+                  </ul>
+                </li>
+
+                <!--PPT -->
+                <!-- eslint-disable max-len -->
                 <li>
                   <header>
                     <p class="sanserif">Software Developer</p>
@@ -147,29 +203,33 @@
                   </header>
                   <span>Post Process Technologies</span>
                   <ul>
-                    <li>
-                      Restructured large parts of C3D web app for a significantly improved user experience
-                    </li>
-                    <li>
-                      Built and maintained several components to increase web app functionality
-                      using Angular and .Net Core
-                    </li>
-                    <li>
-                      Created and manipulated SQL server tables using Entity Framework Core
-                    </li>
-                    <li>
-                      Implemented micro-services to interface with machines and
-                      send alerts to users
-                    </li>
-                    <li>
-                      Migrated WPF code to newer custom MVVM architecture to increase
-                      maintainability
-                    </li>
-                    <li>Interfaced with management to facilitate team understanding of projects and coordinate attainable timelines</li>
+                        <li>
+                          Restructured major portions of the customer-facing web app, simplifying navigation and
+                          reducing friction across core user flows.
+                        </li>
+                        <li>
+                          Built Angular components and .NET Core APIs that expanded functionality and improved
+                          responsiveness, introducing modular patterns for easier extension.
+                        </li>
+                        <li>
+                          Modeled and maintained SQL Server data using Entity Framework Core (migrations, relationships,
+                          and queries), improving stability and clarity of data access.
+                        </li>
+                        <li>
+                          Implemented microservices that interfaced with shop-floor machines and emitted real-time alerts
+                          to users, improving visibility into machine events.
+                        </li>
+                        <li>
+                          Migrated legacy WPF code to a custom MVVM architecture to increase testability and maintainability,
+                          reducing coupling between views and business logic.
+                        </li>
+                        <li>
+                          Collaborated with management and cross-functional stakeholders to clarify requirements, sequence work,
+                          and set realistic delivery timelines; provided feature demos and concise docs.
+                        </li>
                   </ul>
                 </li>
 
-              <!--FoodWeb -->
                 <li>
                   <header>
                     <p class="sanserif">Software Engineer</p>
@@ -178,19 +238,23 @@
                   <span>FoodWeb - Non Profit Startup</span>
                   <ul>
                     <li>
-                      Created various PostgreSQL database tables and stored
-                      procedures
+                      Modeled PostgreSQL schema and wrote stored procedures (constraints and indexes)
+                      to support core features and reliable data access.
                     </li>
-                    <li>Developed server-side functionality using Node.js</li>
                     <li>
-                      Collaborated with the project lead to design and implement
-                      an efficient software architecture
+                      Developed server-side REST APIs in Node.js to handle core workflows,
+                      adding input validation and structured error handling.
                     </li>
-                    <li>Implemented client-side features using Angular</li>
+                    <li>
+                      Built Angular components and services for key user flows, integrating API calls
+                      for a responsive, consistent UI.
+                    </li>
+                    <li>
+                      Collaborated with the project lead to define application architecture and
+                      sequence deliverables; documented interfaces for smooth handoffs.
+                    </li>
                   </ul>
                 </li>
-
-                <!--Teaching Assistant -->
                 <li>
                   <header>
                     <p class="sanserif">Teaching Assistant</p>
@@ -199,19 +263,25 @@
                   <span>University at Buffalo – Dr. Matthew Hertz</span>
                   <ul>
                     <li>
-                      Led recitations and office hours for Intro to Programming
-                      I and II
+                      Led weekly recitations and office hours for Intro to Programming I & II(Java, Python & C++);
+                      prepared mini-lessons and live-coding examples to reinforce lecture material.
                     </li>
-                    <li>Assisted students with debugging code</li>
                     <li>
-                      Clarified gaps to facilitate conceptual understanding
+                      Coached students through debugging and informal code reviews, teaching systematic troubleshooting
+                      and readable coding practices.
                     </li>
-                    <li>Proofread professor's instructions and code</li>
+                    <li>
+                      Translated core CS concepts (control flow, data structures, OOP/recursion) into step-by-step
+                      exercises and short guides to close conceptual gaps.
+                    </li>
+                    <li>
+                      Reviewed and clarified assignment specifications and starter code with the professor to reduce ambiguity
+                      and prevent common errors.
+                    </li>
                   </ul>
                 </li>
               </ol>
             </section>
-
             <!-- PROJECTS -->
             <section class="experience projects">
               <h6 class="section-header">Projects</h6>
@@ -221,66 +291,47 @@
                     Glassdoor Mining project
                   </header>
                   <span>Supervised by Dr. Bina Ramamurthy</span>
-                  <span class="project-description">
+                  <div class="project-description">
                     <ul>
-                      <li>
-                        Mined 2000 Glassdoor Data Scientist job postings via
-                        Python Selenium
-                      </li>
-                      <li>Refined and processed data using Pandas and NumPy</li>
-                      <li>Graphed data with Seaborn and Matplotlib</li>
-                      <li>
-                        Predicted an estimated salary by applying various
-                        Machine Learning algorithms
-                      </li>
-                      <li>
-                        Developed a configurable web app showcasing the analyzed
-                        data and predictive models:
+                      <li>Scraped ~2,000 Glassdoor Data Scientist postings with Python and Selenium; exported structured data for analysis.</li>
+                      <li>Cleaned and transformed records using pandas and NumPy to prepare consistent fields (title, location, skills, salary text).</li>
+                      <li>Visualized trends with Matplotlib and Seaborn (common skills, roles by location, pay patterns).</li>
+                      <li>Trained regression models in scikit-learn to estimate salary and validated results using standard splits.</li>
+                      <li>Published a simple web app to present findings and predictions (Heroku).
                         <a href="https://glassdoor-mining-proj.herokuapp.com/">
-                          glassdoor-mining-proj.herokuapp.com</a>
+                          glassdoor-mining-proj.herokuapp.com
+                        </a>
                       </li>
                     </ul>
-                  </span>
+                  </div>
                 </li>
                 <li>
                   <header class="project-title">
                     BLM Data Science project
                   </header>
-                  <span class="project-description">
+                  <div class="project-description">
                     <ul>
-                      <li>
-                        Gathered statistical data from consumerfinance.gov
-                      </li>
-                      <li>
-                        Analyzed and cleaned data by applying R and DplyR
-                        methods
-                      </li>
-                      <li>Visualized data using Ggplot2</li>
-                      <li>
-                        Demonstrated black mortgage loan applicants are more
-                        likely to be rejected than their white counterparts
-                      </li>
-                      <li>
-                        Forecasted applicant's income by applying linear
-                        regression
-                      </li>
+                      <li>Collected mortgage-related statistics from consumerfinance.gov datasets.</li>
+                      <li>Cleaned and joined data using R (dplyr) and documented a reproducible script.</li>
+                      <li>Visualized distributions and trends with ggplot2.</li>
+                      <li>Explored relationships between applicant race, income, and loan outcomes using linear regression.</li>
                     </ul>
-                  </span>
+                  </div>
                 </li>
                 <li>
                   <header class="project-title">Other Projects</header>
-                  <span class="project-description">
+                  <div class="project-description">
                     <ul>
                       <li>
                         Various other projects can be found at:
                         <a href="/#projects">akash-ghose.com/#projects</a>
                       </li>
                       <li>
-                        Or visit github at:
-                        <a href="https://www.github.com/aghose">github.com/aghose</a>
+                        Or visit GitHub at:
+                        <a href="github.com/aghose">github.com/aghose</a>
                       </li>
                     </ul>
-                  </span>
+                  </div>
                 </li>
               </ol>
             </section>
@@ -314,6 +365,7 @@
             </section>
           </section>
         </section>
+
       </section>
     </section>
   </div>
