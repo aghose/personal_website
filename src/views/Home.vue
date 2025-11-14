@@ -302,10 +302,21 @@
       <div class="container">
         <div class="row">
           <div class="col-md-10 col-lg-8 mx-auto text-center">
-            <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-            <h2 class="text-white mb-5">
-              <a href="/resume">Click here to see my résumé</a>
-            </h2>
+            <div class="resume-dropdown" @click.stop="toggleDropdown">
+              <button class="btn btn-primary" type="button">
+                <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
+                <div class="text-white">View Résumé</div>
+                <i :class="['fas', 'fa-chevron-down', 'dropdown-icon', { 'rotated': showDropdown }]"></i>
+              </button>
+              <div v-show="showDropdown" class="dropdown-menu-custom">
+                <router-link to="/resume" class="dropdown-item-custom" @click="closeDropdown">
+                  <i class="fas fa-globe"></i> Web View
+                </router-link>
+                <a :href="pdfUrl" target="_blank" class="dropdown-item-custom" @click="closeDropdown">
+                  <i class="fas fa-file-pdf"></i> PDF Version
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -382,6 +393,12 @@ export default {
   components: {
     Project
   },
+  data () {
+    return {
+      showDropdown: false,
+      pdfUrl: '/Akash_Ghose_Resume.pdf'
+    }
+  },
   mounted () {
     this.$nextTick(() => {
       // Initialize smooth scrolling for all js-scroll-trigger elements
@@ -394,6 +411,27 @@ export default {
       // entire view has been rendered
       this.$loadScript('./js/scripts.js')
     })
+
+    // Close dropdown when clicking outside
+    document.addEventListener('click', this.handleClickOutside)
+  },
+  beforeUnmount () {
+    // Clean up event listener
+    document.removeEventListener('click', this.handleClickOutside)
+  },
+  methods: {
+    toggleDropdown () {
+      this.showDropdown = !this.showDropdown
+    },
+    closeDropdown () {
+      this.showDropdown = false
+    },
+    handleClickOutside (event) {
+      const dropdown = this.$el.querySelector('.resume-dropdown')
+      if (dropdown && !dropdown.contains(event.target)) {
+        this.closeDropdown()
+      }
+    }
   }
 }
 </script>
