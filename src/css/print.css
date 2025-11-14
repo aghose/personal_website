@@ -1,6 +1,125 @@
 @media print {
+  /* Reset font size for proper scaling */
   #resume-vue {
-    font-size: 3em;
+    font-size: 10pt !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* Ensure the sheet fits on one page */
+  .sheet {
+    width: 100% !important;
+    height: auto !important;
+    margin: 0 !important;
+    padding: 0.25in !important;
+    box-shadow: none !important;
+    page-break-after: auto !important;
+  }
+
+  /* Fix the main layout container */
+  #save {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  /* Ensure sidebar and main content don't overlap */
+  #save > section:first-of-type {
+    display: flex !important;
+    flex-direction: row !important;
+    width: 100% !important;
+    page-break-inside: avoid;
+  }
+
+  /* Sidebar sizing */
+  #save > section:first-of-type > aside {
+    flex-basis: 25% !important;
+    width: 25% !important;
+    padding: 0.15in !important;
+    page-break-inside: avoid;
+  }
+
+  /* Main content sizing */
+  #save > section:first-of-type > section {
+    flex-basis: 75% !important;
+    width: 75% !important;
+    padding: 0.15in !important;
+  }
+
+  /* Header adjustments */
+  #save > section:first-of-type > section > header {
+    flex-basis: auto !important;
+    height: auto !important;
+    min-height: 0 !important;
+    padding: 0.1in !important;
+    page-break-after: avoid;
+  }
+
+  /* Scale down the name/logo for print */
+  header.name svg {
+    width: 180px !important;
+    height: auto !important;
+  }
+
+  /* Section spacing adjustments */
+  #save > section:first-of-type > aside > section + section {
+    margin-top: 1em !important;
+  }
+
+  #save > section:first-of-type > section > section > section + section {
+    margin-top: 0.8em !important;
+  }
+
+  /* Prevent breaking inside experience/education items */
+  .experience ol > li,
+  .education ol > li {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  /* Compact experience sections */
+  .experience ol > li + li {
+    margin-top: 0.6em !important;
+  }
+
+  /* Adjust list item spacing for print */
+  .experience ol > li ul {
+    padding-top: 0.3em !important;
+  }
+
+  li + li {
+    margin-top: 0.25em !important;
+  }
+
+  /* Reduce section header font size */
+  .section-header {
+    font-size: 1.1em !important;
+  }
+
+  h6 {
+    font-size: 1em !important;
+    margin-bottom: 0.5em !important;
+  }
+
+  /* Compact skills/technologies tags */
+  .skills > ul > li,
+  .sidebar-segment > ul > li {
+    margin: 3px 3px 0 0 !important;
+  }
+
+  .skills > ul > li > span,
+  .sidebar-segment > ul > li > span {
+    padding: 2px 6px !important;
+    font-size: 0.85em !important;
+  }
+
+  /* Time elements */
+  time {
+    font-size: 0.85em !important;
+  }
+
+  /* Reduce icon spacing */
+  li .fa, li .fab, .icon {
+    margin-right: 0.5em !important;
   }
 
   pre {
@@ -29,13 +148,21 @@
   }
 
   h2,
-  h3 {
+  h3,
+  h6 {
     page-break-after: avoid;
   }
 
+  /* Ensure links are readable when printed */
   a {
     color: currentColor;
     text-decoration: none;
+  }
+
+  /* Remove hover effects for print */
+  a:hover {
+    font-size: inherit !important;
+    font-weight: inherit !important;
   }
 
   * {
@@ -48,6 +175,9 @@
   [type="submit"]:-moz-focusring {
     outline: none;
   }
+
+  /* Remove responsive breakpoints for print */
+  /* Ensure we use the standard layout, not mobile layout */
 }
 /* Print background graphics */
 @media print and (color) {
