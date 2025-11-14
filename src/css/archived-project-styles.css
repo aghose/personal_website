@@ -1,8 +1,12 @@
 /* Archived Project Styles */
 
 #archived-project-view {
+  --primary: #64a19d;
+  --primary-dark: #4d8984;
+  --black: #000000;
+
   min-height: 100vh;
-  background-color: #000000;
+  background-color: var(--black);
 }
 
 .archived-section {
@@ -12,18 +16,18 @@
   min-height: 35rem;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: #000000;
+  background: var(--black);
 }
 
 .name-link {
-  color: #64a19d;
+  color: var(--primary);
   text-decoration: none;
   transition: color 0.2s ease;
   font-weight: bold;
 }
 
 .name-link:hover {
-  color: #4d8984;
+  color: var(--primary-dark);
   text-decoration: none;
 }
 
@@ -43,13 +47,13 @@
 }
 
 .back-home-link {
-  color: #64a19d;
+  color: var(--primary);
   text-decoration: none;
   transition: color 0.2s ease;
 }
 
 .back-home-link:hover {
-  color: #4d8984;
+  color: var(--primary-dark);
   text-decoration: none;
 }
 
